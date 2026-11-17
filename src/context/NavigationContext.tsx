@@ -6,13 +6,9 @@ export type ViewType =
   | 'product'
   | 'about'
   | 'contact'
-  | 'vision-care'
   | 'federal-care'
-  | 'blog'
   | 'faq'
-  | 'size-guide'
   | 'stores'
-  | 'partnerships'
   | 'policies';
 
 export interface NavigationParams {
@@ -42,8 +38,7 @@ const QUERY_KEYS: (keyof NavigationParams)[] = [
 ];
 
 const PAGE_VIEWS: ViewType[] = [
-  'about', 'contact', 'vision-care', 'federal-care', 'blog', 'faq',
-  'size-guide', 'stores', 'partnerships', 'policies'
+  'about', 'contact', 'federal-care', 'faq', 'stores', 'policies'
 ];
 
 function sameParams(a: NavigationParams, b: NavigationParams): boolean {
@@ -84,9 +79,6 @@ function buildPath(view: ViewType, p: NavigationParams): string {
   if (view === 'catalog') {
     const sub = p.subCategory ? '/' + encodeURIComponent(p.subCategory) : '';
     return '/catalog/' + (p.category || 'all') + sub + query(['category', 'subCategory']);
-  }
-  if (view === 'partnerships') {
-    return '/partnership' + query([]);
   }
   return '/' + view + query([]);
 }
@@ -129,12 +121,6 @@ function parseLocation(): { view: ViewType; params: NavigationParams } {
   if (['privacy-policy', 'refund-policy', 'shipping-policy', 'terms-of-service'].includes(view)) {
     return { view: 'policies', params: { policyTab: view.replace('-policy', '').replace('terms-of-service', 'terms') } };
   }
-  if (view === 'partnership' || view === 'partnerships') {
-    return {
-      view: 'partnerships',
-      params: compact({ ...query, subCategory: safeDecode(parts[1]) ?? query.subCategory })
-    };
-  }
   if ((PAGE_VIEWS as string[]).includes(view)) {
     return {
       view: view as ViewType,
@@ -150,8 +136,12 @@ export const NavigationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
   const [currentView, setCurrentView] = useState<ViewType>(() => parseLocation().view);
   const [params, setParams] = useState<NavigationParams>(() => parseLocation().params);
 
-  // Migrate legacy hash URLs into clean HTML5 paths on load
+  // Migrate legacy hash URLs into clean HTML5 paths on load; links to pages
+  // that no longer exist (e.g. /blog) resolve to home, so show "/" in the address bar
   useEffect(() => {
+    if (!window.location.hash && parseLocation().view === 'home' && window.location.pathname !== '/') {
+      window.history.replaceState(null, '', '/');
+    }
     if (window.location.hash) {
       const { view, params: p } = parseLocation();
       const cleanPath = buildPath(view, p);

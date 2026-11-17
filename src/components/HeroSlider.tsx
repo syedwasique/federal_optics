@@ -252,9 +252,19 @@ export const HeroSlider: React.FC = () => {
   useLayoutEffect(() => {
     reducedRef.current = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     slideRefs.current.forEach((el, i) => el && gsap.set(el, { autoAlpha: i === 0 ? 1 : 0, zIndex: i === 0 ? 2 : 0 }));
-    reveal(0, 0.15);
-    startZoom(0);
-    startTimer(0);
+    // While the brand loader covers the page, hold slide 1 still; start its text
+    // reveal and 3s timer only once the loader lifts.
+    const begin = () => {
+      reveal(0, 0.15);
+      startZoom(0);
+      startTimer(0);
+    };
+    const waitForLoader = window.__foLoading === true;
+    if (waitForLoader) {
+      window.addEventListener('fo-loader-done', begin, { once: true });
+    } else {
+      begin();
+    }
 
     // Pause when the hero is off-screen or the tab is hidden
     const onVisibility = () => setPaused('hidden', document.hidden);
@@ -263,6 +273,7 @@ export const HeroSlider: React.FC = () => {
     document.addEventListener('visibilitychange', onVisibility);
 
     return () => {
+      window.removeEventListener('fo-loader-done', begin);
       io.disconnect();
       document.removeEventListener('visibilitychange', onVisibility);
       timerRef.current?.kill();

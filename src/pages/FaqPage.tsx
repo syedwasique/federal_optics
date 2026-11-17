@@ -74,7 +74,7 @@ const FAQS: FaqItem[] = [
     category: 'Eyeglasses & Lenses',
     question: 'How do I know if a frame will fit my face?',
     answer:
-      'Every frame in our catalog displays exact millimeter dimensions: Lens Width, Bridge Width, and Temple Arm Length (e.g. 52□18-140 mm). You can compare these with the numbers printed inside the temple arm of your existing comfortable glasses, or check our interactive Size Guide page.'
+      'Every frame in our catalog displays exact millimeter dimensions: Lens Width, Bridge Width, and Temple Arm Length (e.g. 52□18-140 mm). You can compare these with the numbers printed inside the temple arm of your existing comfortable glasses, or message us on WhatsApp for help choosing a size.'
   },
   {
     category: 'Eyeglasses & Lenses',
@@ -98,9 +98,9 @@ const FAQS: FaqItem[] = [
   },
   {
     category: 'Clinic & Eye Tests',
-    question: 'Do you offer on-site eye testing for companies or schools?',
+    question: 'Do you offer on-site eye testing?',
     answer:
-      'Yes! Under our Federal Care institutional program, we bring portable computerized autorefractors and diagnostic teams on-location to offices, banks, factories, and schools in Karachi for corporate wellness days.'
+      'Yes. Through Federal Care we can bring portable computerized eye-testing equipment to your home or office in Karachi. Request a visit from the On-Site Eye Test tab on the Federal Care page.'
   },
 
   // 6. Returns & Guarantee

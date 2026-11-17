@@ -5,6 +5,7 @@ import { useNavigation } from '../context/NavigationContext';
 import { FEDERAL_OPTICAL_WHATSAPP_NUMBER } from '../context/CartContext';
 import { InstagramIcon } from '../components/Icons';
 import { HeroSlider } from '../components/HeroSlider';
+import { ReviewsCarousel } from '../components/ReviewsCarousel';
 import { SEO, getLocalBusinessSchema } from '../components/SEO';
 import {
   ArrowRight,
@@ -415,7 +416,7 @@ export const HomePage: React.FC = () => {
           <div className="max-w-xl space-y-4">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#C5A880]/20 text-[#C5A880] text-xs font-semibold uppercase tracking-wider">
               <Eye className="w-3.5 h-3.5" />
-              <span>Vision Care Innovation</span>
+              <span>Blue-Light Lenses</span>
             </span>
             <h3 className="font-heading text-3xl sm:text-4xl font-semibold leading-tight">
               Protect Your Vision From Modern Screens.
@@ -425,14 +426,8 @@ export const HomePage: React.FC = () => {
             </p>
             <div className="pt-2 flex flex-wrap gap-3">
               <button
-                onClick={() => navigateTo('vision-care')}
-                className="px-6 py-3 rounded-full bg-[#C5A880] hover:bg-[#d6be9c] text-black font-semibold text-xs transition-colors"
-              >
-                Explore Lens Coatings Guide
-              </button>
-              <button
                 onClick={() => openCategory('eyeglasses')}
-                className="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-medium text-xs transition-colors"
+                className="px-6 py-3 rounded-full bg-[#C5A880] hover:bg-[#d6be9c] text-black font-semibold text-xs transition-colors"
               >
                 Choose Any Frame to Fit
               </button>
@@ -688,59 +683,11 @@ export const HomePage: React.FC = () => {
             Trusted by Generations Since 1975
           </h2>
           <p className="text-stone-600 text-xs sm:text-sm">
-            From Karachi families who have visited us since childhood to overseas professionals ordering through WhatsApp.
+            What our customers say about us on Google.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-white rounded-2xl border border-[#E8E3D8] p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
-            <div className="space-y-3">
-              <div className="flex text-amber-400">★★★★★</div>
-              <h3 className="font-heading text-base font-semibold text-stone-900">
-                “My father used to bring me here in 1986”
-              </h3>
-              <p className="text-xs text-stone-600 leading-relaxed">
-                “Federal Optical has been our family optician for over 35 years. I recently ordered their Executive Browline frames with progressive lenses. The optical alignment and reading corridor transition are flawless.”
-              </p>
-            </div>
-            <div className="pt-4 border-t border-[#E8E3D8] mt-4 flex items-center justify-between text-[11px] text-stone-500">
-              <span className="font-semibold text-stone-900">Engr. Tariq Mehmood</span>
-              <span>Clifton, Karachi</span>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl border border-[#E8E3D8] p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
-            <div className="space-y-3">
-              <div className="flex text-amber-400">★★★★★</div>
-              <h3 className="font-heading text-base font-semibold text-stone-900">
-                “Dispatched to London via WhatsApp smoothly”
-              </h3>
-              <p className="text-xs text-stone-600 leading-relaxed">
-                “I live in London and always struggled to find comfortable bridges for my face shape. Sent my prescription photo on WhatsApp, confirmed my frame measurements, and received DHL express within days.”
-              </p>
-            </div>
-            <div className="pt-4 border-t border-[#E8E3D8] mt-4 flex items-center justify-between text-[11px] text-stone-500">
-              <span className="font-semibold text-stone-900">Zahra Al-Hussaini</span>
-              <span>London, UK</span>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl border border-[#E8E3D8] p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
-            <div className="space-y-3">
-              <div className="flex text-amber-400">★★★★★</div>
-              <h3 className="font-heading text-base font-semibold text-stone-900">
-                “Computerized refractor test found my exact astigmatism”
-              </h3>
-              <p className="text-xs text-stone-600 leading-relaxed">
-                “Other shops kept giving me headaches with incorrect axis angles. Federal Optical’s clinic checked my eyes thoroughly and their anti-glare lenses made screen work effortless.”
-              </p>
-            </div>
-            <div className="pt-4 border-t border-[#E8E3D8] mt-4 flex items-center justify-between text-[11px] text-stone-500">
-              <span className="font-semibold text-stone-900">Dr. Ayesha Siddiqui</span>
-              <span>Karachi, Sindh</span>
-            </div>
-          </div>
-        </div>
+        <ReviewsCarousel />
       </section>
 
       {/* ========================================================================= */}

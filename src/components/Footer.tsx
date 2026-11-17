@@ -107,28 +107,8 @@ export const Footer: React.FC = () => {
                 </button>
               </li>
               <li>
-                <button onClick={() => navigateTo('size-guide')} className="hover:text-[#C5A880] transition-colors text-left">
-                  Frame Size & Fit Guide
-                </button>
-              </li>
-              <li>
                 <button onClick={() => navigateTo('faq')} className="hover:text-[#C5A880] transition-colors text-left">
                   Frequently Asked Questions (FAQs)
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateTo('federal-care', { subCategory: 'corporate' })} className="hover:text-[#C5A880] transition-colors text-left">
-                  Corporate & School Eyecare
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateTo('partnerships')} className="hover:text-[#C5A880] transition-colors text-left">
-                  Franchise Inquiries
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateTo('partnerships', { subCategory: 'influencer' })} className="hover:text-[#C5A880] transition-colors text-left">
-                  Influencer / Ambassador Program
                 </button>
               </li>
             </ul>
@@ -202,11 +182,6 @@ export const Footer: React.FC = () => {
               <li>
                 <button onClick={() => openCategory('clear-contacts')} className="hover:text-[#C5A880] transition-colors text-left">
                   Clear Contact Lenses (Acuvue & more)
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateTo('vision-care')} className="hover:text-[#C5A880] transition-colors text-left">
-                  Vision Care Lens Guide
                 </button>
               </li>
               <li>

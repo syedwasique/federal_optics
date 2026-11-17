@@ -8,3 +8,12 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>,
 )
+
+// Tell the brand loader (inline in index.html) that the first screen has rendered.
+declare global {
+  interface Window {
+    __foAppReady?: () => void;
+    __foLoading?: boolean;
+  }
+}
+requestAnimationFrame(() => requestAnimationFrame(() => window.__foAppReady?.()))

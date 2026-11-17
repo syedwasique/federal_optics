@@ -529,12 +529,6 @@ export const ProductDetailPage: React.FC = () => {
                 <span className="font-bold text-stone-900 uppercase tracking-wider">
                   Select Lens Technology (Optional)
                 </span>
-                <button
-                  onClick={() => navigateTo('vision-care')}
-                  className="text-[11px] text-[#8C7048] hover:underline"
-                >
-                  Lens Guide
-                </button>
               </div>
 
               <div className="space-y-2">

@@ -8,7 +8,10 @@
     <meta name="description" content="Karachi’s trusted family opticians since 1975. Shop eyeglasses, sunglasses, and contact lenses, or book your computerized eye test. Serving Pakistan & worldwide." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- fonts load without blocking first paint, so the brand loader appears immediately -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" /></noscript>
     <!-- First hero slide: start fetching before JS boots so the LCP image isn’t delayed -->
     <link rel="preload" as="image" type="image/webp" media="(orientation: landscape)"
       imagesrcset="/assets/hero/hero-eyeglasses-desktop-1024.webp 1024w, /assets/hero/hero-eyeglasses-desktop-1440.webp 1440w, /assets/hero/hero-eyeglasses-desktop-1920.webp 1920w"
@@ -16,8 +19,132 @@
     <link rel="preload" as="image" type="image/webp" media="(orientation: portrait)"
       imagesrcset="/assets/hero/hero-eyeglasses-mobile-600.webp 600w, /assets/hero/hero-eyeglasses-mobile-900.webp 900w"
       imagesizes="100vw" fetchpriority="high" />
+    <!-- Brand loader: inline so it paints before any JS/CSS bundle arrives.
+         Every animation below uses only transform and opacity, so the browser runs
+         it on the GPU and it stays smooth while the app's JavaScript is loading. -->
+    <link rel="preload" as="image" href="/assets/logos/loader-emblem-gold.png" />
+    <link rel="preload" as="image" href="/assets/logos/loader-wordmark-white.png" />
+    <style>
+      html.fo-loading, html.fo-loading body { overflow: hidden; }
+      #fo-loader {
+        position: fixed; inset: 0; z-index: 9999; display: flex; align-items: center; justify-content: center;
+        background: radial-gradient(120% 90% at 50% 45%, #1c1e24 0%, #121316 55%, #0a0b0d 100%);
+        transform: translateZ(0); will-change: transform;
+        transition: transform 0.95s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+      #fo-loader.fo-out { transform: translate3d(0, -100%, 0); }
+      .fo-stage { position: relative; width: clamp(250px, 64vw, 540px); will-change: transform, opacity; transition: transform 0.9s cubic-bezier(0.76, 0, 0.24, 1), opacity 0.6s ease; }
+      #fo-loader.fo-out .fo-stage { transform: translate3d(0, 60px, 0) scale(0.97); opacity: 0; }
+      .fo-logo { display: flex; align-items: center; gap: 3%; }
+      .fo-emblem { position: relative; flex: 0 0 25.5%; }
+      .fo-emblem img, .fo-word img { display: block; width: 100%; height: auto; }
+      .fo-emblem img { position: relative; opacity: 0; transform: scale(0.94, 0.04); transform-origin: 50% 47%; will-change: transform, opacity; }
+      .fo-glow {
+        position: absolute; left: 13%; top: -2%; width: 74%; aspect-ratio: 1; border-radius: 50%;
+        opacity: 0; transform: scale(0.6); will-change: transform, opacity;
+        background: radial-gradient(circle, rgba(214,190,156,0.5) 0%, rgba(197,168,128,0.16) 42%, rgba(197,168,128,0) 68%);
+      }
+      /* wordmark wipe: outer box slides right while the inner image slides back, revealing it left to right */
+      .fo-word { position: relative; flex: 1 1 auto; overflow: hidden; }
+      .fo-word-in { position: relative; transform: translate3d(-101%, 0, 0); will-change: transform; }
+      .fo-word-in > div { transform: translate3d(101%, 0, 0); will-change: transform; }
+      /* gold light: a band that travels across, masked to the letters only */
+      .fo-sheen {
+        position: absolute; inset: 0; overflow: hidden; pointer-events: none;
+        -webkit-mask: url(/assets/logos/loader-wordmark-white.png) center / 100% 100% no-repeat;
+                mask: url(/assets/logos/loader-wordmark-white.png) center / 100% 100% no-repeat;
+      }
+      .fo-sheen > i {
+        position: absolute; top: 0; bottom: 0; left: 0; width: 38%;
+        background: linear-gradient(100deg, rgba(232,215,190,0) 0%, rgba(232,215,190,0.95) 50%, rgba(232,215,190,0) 100%);
+        transform: translate3d(-110%, 0, 0); will-change: transform;
+      }
+      .fo-bar { margin: 34px auto 0; width: 46%; height: 2px; border-radius: 2px; background: rgba(255,255,255,0.12); overflow: hidden; }
+      .fo-bar > i { display: block; height: 100%; width: 100%; background: linear-gradient(90deg, #8c7048, #d6be9c); transform-origin: left; transform: scaleX(0); will-change: transform; transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+      /* sequence: the eye opens, the iris glows, the name is written in, a gold light passes over it */
+      .fo-play .fo-emblem img { animation: fo-eye 0.9s cubic-bezier(0.22, 1, 0.36, 1) 0.1s forwards; }
+      .fo-play .fo-glow { animation: fo-glow 1.6s ease-out 0.5s forwards; }
+      .fo-play .fo-word-in, .fo-play .fo-word-in > div { animation: fo-wipe 0.95s cubic-bezier(0.65, 0, 0.35, 1) 0.65s forwards; }
+      .fo-play .fo-sheen > i { animation: fo-sheen 1.2s cubic-bezier(0.45, 0, 0.25, 1) 1.5s forwards; }
+      @keyframes fo-eye { 0% { opacity: 0; transform: scale(0.94, 0.04); } 35% { opacity: 1; } 100% { opacity: 1; transform: scale(1, 1); } }
+      @keyframes fo-glow { 0% { opacity: 0; transform: scale(0.6); } 45% { opacity: 1; transform: scale(1.15); } 100% { opacity: 0.35; transform: scale(1); } }
+      @keyframes fo-wipe { to { transform: translate3d(0, 0, 0); } }
+      @keyframes fo-sheen { to { transform: translate3d(290%, 0, 0); } }
+      @keyframes fo-show { from { opacity: 0; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .fo-emblem img { transform: none; }
+        .fo-word-in, .fo-word-in > div { transform: none; }
+        .fo-play .fo-emblem img, .fo-play .fo-word { animation: fo-show 0.4s ease forwards; }
+        .fo-play .fo-word-in, .fo-play .fo-word-in > div, .fo-play .fo-glow, .fo-play .fo-sheen > i { animation: none; }
+        #fo-loader { transition: opacity 0.4s ease; }
+        #fo-loader.fo-out { transform: none; opacity: 0; }
+      }
+    </style>
   </head>
   <body class="bg-[#FAF8F5] text-[#121316] font-sans antialiased selection:bg-[#C5A880]/20 selection:text-[#121316]">
+    <div id="fo-loader" role="status" aria-label="Loading Federal Optical">
+      <div class="fo-stage">
+        <div class="fo-logo">
+          <div class="fo-emblem"><span class="fo-glow"></span><img src="/assets/logos/loader-emblem-gold.png" alt="" /></div>
+          <div class="fo-word">
+            <div class="fo-word-in"><div>
+              <img src="/assets/logos/loader-wordmark-white.png" alt="Federal Optical, Computerized Eye Clinic" />
+              <span class="fo-sheen"><i></i></span>
+            </div></div>
+          </div>
+        </div>
+        <div class="fo-bar"><i></i></div>
+      </div>
+    </div>
+    <script>
+      /* Loader: plays the full logo animation on every page load (min 2.6s from when
+         the logo images are ready, so it always finishes), then lifts once the app has
+         rendered and the page has loaded, or after 7s at most. Fires "fo-loader-done". */
+      (function () {
+        var root = document.documentElement, el = document.getElementById('fo-loader');
+        var bar = el.querySelector('.fo-bar > i');
+        var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        var minMs = reduced ? 900 : 2600, playStart = 0;
+        var appReady = false, pageLoaded = document.readyState === 'complete', done = false;
+        root.classList.add('fo-loading');
+        window.__foLoading = true;
+        function setBar(v) { bar.style.transform = 'scaleX(' + v + ')'; }
+        setBar(0.08);
+        var t1 = 0, t2 = 0;
+        // start once both logo images are decoded (or after 0.8s), so nothing animates while blank
+        var imgs = el.querySelectorAll('img'), started = false;
+        function play() {
+          if (started) return; started = true; playStart = Date.now();
+          el.classList.add('fo-play');
+          t1 = setTimeout(function () { setBar(0.45); }, 500);
+          t2 = setTimeout(function () { setBar(0.72); }, 1400);
+          check();
+        }
+        var waits = [];
+        for (var i = 0; i < imgs.length; i++) {
+          waits.push(imgs[i].decode ? imgs[i].decode().catch(function () {}) : Promise.resolve());
+        }
+        Promise.all(waits).then(play);
+        setTimeout(play, 800);
+        function finish() {
+          if (done) return; done = true; clearTimeout(t1); clearTimeout(t2); setBar(1);
+          setTimeout(function () {
+            el.classList.add('fo-out');
+            root.classList.remove('fo-loading');
+            window.__foLoading = false;
+            window.dispatchEvent(new Event('fo-loader-done'));
+            setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 1000);
+          }, 300);
+        }
+        function check() {
+          if (!started || !appReady || !pageLoaded) return;
+          setTimeout(finish, Math.max(0, minMs - (Date.now() - playStart)));
+        }
+        window.__foAppReady = function () { appReady = true; check(); };
+        window.addEventListener('load', function () { pageLoaded = true; check(); });
+        setTimeout(finish, 7000);
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

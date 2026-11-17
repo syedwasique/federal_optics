@@ -12,9 +12,7 @@ import {
   ArrowRight,
   ArrowLeft,
   MapPin,
-  Ruler,
-  HelpCircle,
-  Building2
+  HelpCircle
 } from 'lucide-react';
 
 const DISPOSABILITY_ORDER = [
@@ -47,7 +45,6 @@ export const Header: React.FC = () => {
     | 'color-contacts-disposability'
     | 'eyeglasses'
     | 'sunglasses'
-    | 'vision-care'
     | 'federal-care'
   >('main');
   const [searchOpen, setSearchOpen] = useState(false);
@@ -85,7 +82,7 @@ export const Header: React.FC = () => {
   
   // Dynamic background detection state: true when over dark section, false when over light section
   const [isDarkBg, setIsDarkBg] = useState(
-    ['home', 'about', 'federal-care', 'vision-care', 'faq', 'size-guide', 'stores', 'partnerships', 'policies'].includes(currentView)
+    ['home', 'about', 'federal-care', 'faq', 'stores', 'policies'].includes(currentView)
   );
 
   useEffect(() => {
@@ -140,7 +137,7 @@ export const Header: React.FC = () => {
       } else {
         // Fallback based on route
         const heroThreshold = currentView === 'home' ? window.innerHeight - 80 : 450;
-        if (['home', 'about', 'federal-care', 'vision-care'].includes(currentView) && scrollY < heroThreshold) {
+        if (['home', 'about', 'federal-care'].includes(currentView) && scrollY < heroThreshold) {
           setIsDarkBg(true);
         } else {
           setIsDarkBg(false);
@@ -515,20 +512,6 @@ export const Header: React.FC = () => {
                     <span className="text-[10px] font-semibold text-stone-400">Cases & Sprays</span>
                   </button>
 
-                  {/* 7. Vision Care → */}
-                  <button
-                    onClick={() => setDrawerPanel('vision-care')}
-                    className="w-full flex items-center justify-between px-5 py-3.5 text-sm font-semibold tracking-wide text-stone-900 hover:bg-[#F3EFE8]/70 transition-colors cursor-pointer"
-                  >
-                    <div className="flex items-center gap-2">
-                      <span>Vision Care</span>
-                      <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-700">
-                        Lens Lab
-                      </span>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-stone-400" />
-                  </button>
-
                   {/* 8. Federal Care → */}
                   <button
                     onClick={() => setDrawerPanel('federal-care')}
@@ -541,18 +524,6 @@ export const Header: React.FC = () => {
                       </span>
                     </div>
                     <ChevronRight className="w-4 h-4 text-stone-400" />
-                  </button>
-
-                  {/* 9. Blog (Flat, no-panel link) */}
-                  <button
-                    onClick={() => {
-                      closeDrawer();
-                      navigateTo('blog');
-                    }}
-                    className="w-full flex items-center justify-between px-5 py-3.5 text-sm font-semibold tracking-wide text-stone-900 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors text-left cursor-pointer"
-                  >
-                    <span>Blog & Eyecare Journal</span>
-                    <span className="text-[10px] font-semibold text-stone-400">Articles</span>
                   </button>
 
                   {/* Quick Links Group */}
@@ -575,18 +546,6 @@ export const Header: React.FC = () => {
                     <button
                       onClick={() => {
                         closeDrawer();
-                        navigateTo('size-guide');
-                      }}
-                      className="w-full flex items-center justify-between py-2 text-xs font-semibold text-stone-700 hover:text-black transition-colors text-left cursor-pointer"
-                    >
-                      <span className="flex items-center gap-2">
-                        <Ruler className="w-3.5 h-3.5 text-[#8C7048]" />
-                        <span>Frame Size & Fit Guide</span>
-                      </span>
-                    </button>
-                    <button
-                      onClick={() => {
-                        closeDrawer();
                         navigateTo('faq');
                       }}
                       className="w-full flex items-center justify-between py-2 text-xs font-semibold text-stone-700 hover:text-black transition-colors text-left cursor-pointer"
@@ -594,18 +553,6 @@ export const Header: React.FC = () => {
                       <span className="flex items-center gap-2">
                         <HelpCircle className="w-3.5 h-3.5 text-[#8C7048]" />
                         <span>Frequently Asked Questions (FAQs)</span>
-                      </span>
-                    </button>
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('partnerships');
-                      }}
-                      className="w-full flex items-center justify-between py-2 text-xs font-semibold text-stone-700 hover:text-black transition-colors text-left cursor-pointer"
-                    >
-                      <span className="flex items-center gap-2">
-                        <Building2 className="w-3.5 h-3.5 text-[#8C7048]" />
-                        <span>Franchise & Influencer Inquiries</span>
                       </span>
                     </button>
                   </div>
@@ -728,66 +675,6 @@ export const Header: React.FC = () => {
                 </div>
               )}
 
-              {/* Vision Care Sub-Panel */}
-              {drawerPanel === 'vision-care' && (
-                <div className="animate-fade-in">
-                  <button
-                    onClick={() => setDrawerPanel('main')}
-                    className="w-full flex items-center gap-2 px-5 py-3.5 text-xs font-bold uppercase tracking-wider text-stone-900 border-b border-[#E8E3D8] hover:bg-[#F3EFE8] transition-colors cursor-pointer"
-                  >
-                    <ArrowLeft className="w-4 h-4 text-[#8C7048]" />
-                    <span>Vision Care</span>
-                  </button>
-                  <div className="py-2 divide-y divide-[#E8E3D8]/40">
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('vision-care', { subCategory: 'single-vision' });
-                      }}
-                      className="w-full text-left px-6 py-3 text-xs font-medium text-stone-800 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors cursor-pointer"
-                    >
-                      Single Vision Lenses
-                    </button>
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('vision-care', { subCategory: 'progressive' });
-                      }}
-                      className="w-full text-left px-6 py-3 text-xs font-medium text-stone-800 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors cursor-pointer"
-                    >
-                      Progressive Lenses
-                    </button>
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('vision-care', { subCategory: 'anti-fatigue' });
-                      }}
-                      className="w-full text-left px-6 py-3 text-xs font-medium text-stone-800 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors cursor-pointer"
-                    >
-                      Anti-fatigue Lenses
-                    </button>
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('vision-care', { subCategory: 'office' });
-                      }}
-                      className="w-full text-left px-6 py-3 text-xs font-medium text-stone-800 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors cursor-pointer"
-                    >
-                      Office Lenses
-                    </button>
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('vision-care', { subCategory: 'myopia' });
-                      }}
-                      className="w-full text-left px-6 py-3 text-xs font-medium text-stone-800 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors cursor-pointer"
-                    >
-                      Myopia Management Lenses
-                    </button>
-                  </div>
-                </div>
-              )}
-
               {/* Federal Care Sub-Panel */}
               {drawerPanel === 'federal-care' && (
                 <div className="animate-fade-in">
@@ -799,24 +686,6 @@ export const Header: React.FC = () => {
                     <span>Federal Care</span>
                   </button>
                   <div className="py-2 divide-y divide-[#E8E3D8]/40">
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('federal-care', { subCategory: 'corporate' });
-                      }}
-                      className="w-full text-left px-6 py-3 text-xs font-medium text-stone-800 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors cursor-pointer"
-                    >
-                      Corporate Eyecare
-                    </button>
-                    <button
-                      onClick={() => {
-                        closeDrawer();
-                        navigateTo('federal-care', { subCategory: 'schools' });
-                      }}
-                      className="w-full text-left px-6 py-3 text-xs font-medium text-stone-800 hover:bg-[#F3EFE8]/70 hover:text-[#8C7048] transition-colors cursor-pointer"
-                    >
-                      School Eye Screening
-                    </button>
                     <button
                       onClick={() => {
                         closeDrawer();

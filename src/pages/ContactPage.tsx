@@ -304,7 +304,6 @@ export const ContactPage: React.FC = () => {
                       <option value="Eyewear Frame Inquiry">Frame Sizing / Fit</option>
                       <option value="Contact Lenses In-Stock">Contact Lenses Stock</option>
                       <option value="Overseas Shipping">Overseas Shipping (USA/UK/Canada)</option>
-                      <option value="Corporate Eyecare">Corporate Partnership</option>
                     </select>
                   </div>
                 </div>

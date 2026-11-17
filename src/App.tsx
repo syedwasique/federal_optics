@@ -13,13 +13,9 @@ import { CategoryPage } from './pages/CategoryPage';
 import { ProductDetailPage } from './pages/ProductDetailPage';
 import { AboutPage } from './pages/AboutPage';
 import { ContactPage } from './pages/ContactPage';
-import { VisionCarePage } from './pages/VisionCarePage';
 import { FederalCarePage } from './pages/FederalCarePage';
-import { BlogPage } from './pages/BlogPage';
 import { FaqPage } from './pages/FaqPage';
-import { SizeGuidePage } from './pages/SizeGuidePage';
 import { OurStoresPage } from './pages/OurStoresPage';
-import { PartnershipPage } from './pages/PartnershipPage';
 import { PolicyPage } from './pages/PolicyPage';
 
 const AppContent: React.FC = () => {
@@ -51,11 +47,8 @@ const AppContent: React.FC = () => {
     'home',
     'about',
     'federal-care',
-    'vision-care',
     'faq',
-    'size-guide',
     'stores',
-    'partnerships',
     'policies'
   ].includes(currentView);
 
@@ -74,13 +67,9 @@ const AppContent: React.FC = () => {
         {currentView === 'product' && <ProductDetailPage />}
         {currentView === 'about' && <AboutPage />}
         {currentView === 'contact' && <ContactPage />}
-        {currentView === 'vision-care' && <VisionCarePage />}
         {currentView === 'federal-care' && <FederalCarePage />}
-        {currentView === 'blog' && <BlogPage />}
         {currentView === 'faq' && <FaqPage />}
-        {currentView === 'size-guide' && <SizeGuidePage />}
         {currentView === 'stores' && <OurStoresPage />}
-        {currentView === 'partnerships' && <PartnershipPage />}
         {currentView === 'policies' && <PolicyPage />}
       </main>
 

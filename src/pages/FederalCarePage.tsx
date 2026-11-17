@@ -3,8 +3,6 @@ import { useNavigation } from '../context/NavigationContext';
 import { FEDERAL_OPTICAL_WHATSAPP_NUMBER } from '../context/CartContext';
 import { SEO, getLocalBusinessSchema, getBreadcrumbSchema } from '../components/SEO';
 import {
-  Building2,
-  GraduationCap,
   Calendar,
   CheckCircle2,
   ShieldCheck,
@@ -15,17 +13,13 @@ import {
 
 export const FederalCarePage: React.FC = () => {
   const { params } = useNavigation();
-  const [activeTab, setActiveTab] = useState<'clinic' | 'on-site' | 'corporate' | 'schools'>('clinic');
+  const [activeTab, setActiveTab] = useState<'clinic' | 'on-site'>('clinic');
 
   useEffect(() => {
     if (params.subCategory) {
       const sub = params.subCategory.toLowerCase();
       if (sub.includes('on-site') || sub.includes('onsite')) {
         setActiveTab('on-site');
-      } else if (sub.includes('corporate') || sub.includes('company')) {
-        setActiveTab('corporate');
-      } else if (sub.includes('school') || sub.includes('student')) {
-        setActiveTab('schools');
       } else if (sub.includes('clinic') || sub.includes('store') || sub.includes('book')) {
         setActiveTab('clinic');
       }
@@ -73,8 +67,8 @@ export const FederalCarePage: React.FC = () => {
   return (
     <div className="space-y-16 sm:space-y-24 pb-20">
       <SEO
-        title="Federal Care — Clinical Eye Exams, On-Site & Corporate Eyecare"
-        description="Book computerized eye refraction tests, mobile corporate screening camps, and school eye checks in Karachi with Federal Optical certified optometrists."
+        title="Federal Care — In-Store & On-Site Computerized Eye Tests"
+        description="Book a computerized eye refraction test at our Karachi clinic, or arrange an on-site eye test with Federal Optical."
         canonical="/federal-care"
         schema={[
           getLocalBusinessSchema(),
@@ -95,7 +89,7 @@ export const FederalCarePage: React.FC = () => {
             Comprehensive Eyecare for Karachi & Beyond
           </h1>
           <p className="text-stone-300 text-xs sm:text-base leading-relaxed">
-            In addition to our extensive retail frame collections, Federal Optical provides clinical automated eye refraction exams, mobile on-site corporate testing, and pediatric school screenings.
+            In addition to our extensive retail frame collections, Federal Optical provides computerized eye refraction exams at our Karachi clinic and on-site eye tests at your location.
           </p>
         </div>
       </section>
@@ -124,26 +118,6 @@ export const FederalCarePage: React.FC = () => {
             >
               <span className="w-2 h-2 rounded-full bg-[#C5A880]" />
               <span>On-Site Eye Test</span>
-            </button>
-            <button
-              onClick={() => setActiveTab('corporate')}
-              className={`pb-4 px-3 sm:px-4 text-xs sm:text-sm font-bold uppercase tracking-wider whitespace-nowrap transition-all cursor-pointer border-b-2 ${
-                activeTab === 'corporate'
-                  ? 'border-[#C5A880] text-[#121316]'
-                  : 'border-transparent text-stone-500 hover:text-black'
-              }`}
-            >
-              Corporate Eyecare
-            </button>
-            <button
-              onClick={() => setActiveTab('schools')}
-              className={`pb-4 px-3 sm:px-4 text-xs sm:text-sm font-bold uppercase tracking-wider whitespace-nowrap transition-all cursor-pointer border-b-2 ${
-                activeTab === 'schools'
-                  ? 'border-[#C5A880] text-[#121316]'
-                  : 'border-transparent text-stone-500 hover:text-black'
-              }`}
-            >
-              School Eye Screenings
             </button>
           </div>
         </div>
@@ -422,95 +396,6 @@ export const FederalCarePage: React.FC = () => {
                   </button>
                 </form>
               )}
-            </div>
-          </div>
-        )}
-
-        {/* TAB 3: Corporate Eyecare */}
-        {activeTab === 'corporate' && (
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            <div className="lg:col-span-6 space-y-5 text-stone-700 text-xs sm:text-sm leading-relaxed">
-              <span className="text-xs font-bold uppercase tracking-widest text-[#8C7048]">
-                Institutional Wellness
-              </span>
-              <h2 className="font-heading text-3xl font-semibold text-stone-900">
-                Corporate Eyecare Packages for Karachi Teams
-              </h2>
-              <p>
-                Prolonged screen time directly affects team productivity, causing tension headaches, dry eyes, and absenteeism. Federal Optical partners with corporations, banks, IT software houses, and law firms to bring optical healthcare to your workforce.
-              </p>
-              <ul className="space-y-2 pt-1 text-xs">
-                <li className="flex items-center gap-2 font-medium text-stone-900">
-                  <CheckCircle2 className="w-4 h-4 text-[#C5A880]" />
-                  On-site mobile refraction testing camps at your Karachi headquarters
-                </li>
-                <li className="flex items-center gap-2 font-medium text-stone-900">
-                  <CheckCircle2 className="w-4 h-4 text-[#C5A880]" />
-                  Special employee corporate discounts on computer blue-shield eyewear
-                </li>
-                <li className="flex items-center gap-2 font-medium text-stone-900">
-                  <CheckCircle2 className="w-4 h-4 text-[#C5A880]" />
-                  Direct corporate billing or employee insurance claims support
-                </li>
-              </ul>
-              <div className="pt-2">
-                <a
-                  href={`https://wa.me/${FEDERAL_OPTICAL_WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi! I am inquiring about corporate eyecare packages for our company.')}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-6 py-3 rounded-full bg-[#121316] text-white font-semibold text-xs inline-flex items-center gap-2"
-                >
-                  <Building2 className="w-4 h-4 text-[#C5A880]" />
-                  <span>Request Corporate Partnership Proposal</span>
-                </a>
-              </div>
-            </div>
-
-            <div className="lg:col-span-6 rounded-3xl overflow-hidden border border-[#E8E3D8] shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1591076482161-42ce6da69f67?q=80&w=1000&auto=format&fit=crop"
-                alt="Corporate Eyecare"
-                className="w-full h-80 object-cover"
-              />
-            </div>
-          </div>
-        )}
-
-        {/* TAB 4: School Screenings */}
-        {activeTab === 'schools' && (
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            <div className="lg:col-span-6 space-y-5 text-stone-700 text-xs sm:text-sm leading-relaxed">
-              <span className="text-xs font-bold uppercase tracking-widest text-[#8C7048]">
-                Community Mission
-              </span>
-              <h2 className="font-heading text-3xl font-semibold text-stone-900">
-                School Vision Screenings & Pediatric Care
-              </h2>
-              <p>
-                Up to 80% of classroom learning is visual. Undiagnosed nearsightedness or astigmatism often leads teachers and parents to mistake eye strain for poor attention or low grades.
-              </p>
-              <p>
-                Federal Optical coordinates with leading Karachi private and charitable schools to conduct non-invasive visual acuity checks, ensuring young students receive corrective unbreakable flex frames early.
-              </p>
-              <div className="pt-2">
-                <a
-                  href={`https://wa.me/${FEDERAL_OPTICAL_WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi! I am an administrator inquiring about school vision screening camps in Karachi.')}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="px-6 py-3 rounded-full bg-[#121316] text-white font-semibold text-xs inline-flex items-center gap-2"
-                >
-                  <GraduationCap className="w-4 h-4 text-[#C5A880]" />
-                  <span>Contact Our Community Desk</span>
-                </a>
-              </div>
-            </div>
-
-            <div className="lg:col-span-6 rounded-3xl overflow-hidden border border-[#E8E3D8] shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1000&auto=format&fit=crop"
-                alt="Pediatric Optical"
-                className="w-full h-80 object-cover"
-              />
             </div>
           </div>
         )}
