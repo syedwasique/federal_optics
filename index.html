@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/logos/logo_charcoal.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Federal Optical — Your Family Optician Since 1975 | Computerized Eye Clinic</title>
+    <meta name="description" content="Karachi’s trusted family opticians since 1975. Shop eyeglasses, sunglasses, and contact lenses, or book your computerized eye test. Serving Pakistan & worldwide." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- First hero slide: start fetching before JS boots so the LCP image isn’t delayed -->
+    <link rel="preload" as="image" type="image/webp" media="(orientation: landscape)"
+      imagesrcset="/assets/hero/hero-eyeglasses-desktop-1024.webp 1024w, /assets/hero/hero-eyeglasses-desktop-1440.webp 1440w, /assets/hero/hero-eyeglasses-desktop-1920.webp 1920w"
+      imagesizes="100vw" fetchpriority="high" />
+    <link rel="preload" as="image" type="image/webp" media="(orientation: portrait)"
+      imagesrcset="/assets/hero/hero-eyeglasses-mobile-600.webp 600w, /assets/hero/hero-eyeglasses-mobile-900.webp 900w"
+      imagesizes="100vw" fetchpriority="high" />
+  </head>
+  <body class="bg-[#FAF8F5] text-[#121316] font-sans antialiased selection:bg-[#C5A880]/20 selection:text-[#121316]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

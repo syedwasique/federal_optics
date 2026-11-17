@@ -1,0 +1,6 @@
+with open('src/pages/HomePage.tsx', 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+for i, l in enumerate(lines[60:95]):
+    print(f"{i+61}: {l}", end='')
+

@@ -1,0 +1,660 @@
+[Federal Atelier] fo-we101 - Margot Sculpted Cat-Eye (3 imgs)
+    https://images.unsplash.com/photo-1574258495973-f010dfbb5371?q=80&w=1000&auto=format&fit=crop
+    https://images.unsplash.com/photo-1591076482161-42ce6da69f67?q=80&w=1000&auto=format&fit=crop
+    https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=1000&auto=format&fit=crop
+
+[STEPPER Germany] stepper-2021-espresso-brown - STEPPER Germany 2021 TX5 Aviator — Espresso & Rose (3 imgs)
+    /assets/images/eyeglasses/stepper-2021-espresso-brown-front.jpg
+    /assets/images/eyeglasses/stepper-2021-espresso-brown-angle.jpg
+    /assets/images/eyeglasses/stepper-2021-espresso-brown-side.jpg
+
+[STEPPER Germany] stepper-2021-honey-amber-fade - STEPPER Germany 2021 TX5 Aviator — Amber Gold Fade (3 imgs)
+    /assets/images/eyeglasses/stepper-2021-honey-amber-fade-front.jpg
+    /assets/images/eyeglasses/stepper-2021-honey-amber-fade-angle.jpg
+    /assets/images/eyeglasses/stepper-2021-honey-amber-fade-side.jpg
+
+[STEPPER Germany] stepper-2021-crystal-clear - STEPPER Germany 2021 TX5 Aviator — Crystal Clear (3 imgs)
+    /assets/images/eyeglasses/stepper-2021-crystal-clear-front.jpg
+    /assets/images/eyeglasses/stepper-2021-crystal-clear-angle.jpg
+    /assets/images/eyeglasses/stepper-2021-crystal-clear-side.jpg
+
+[STEPPER Germany] stepper-2021-smoke-grey-fade - STEPPER Germany 2021 TX5 Aviator — Smoke Grey Ombré (3 imgs)
+    /assets/images/eyeglasses/stepper-2021-smoke-grey-fade-front.jpg
+    /assets/images/eyeglasses/stepper-2021-smoke-grey-fade-angle.jpg
+    /assets/images/eyeglasses/stepper-2021-smoke-grey-fade-side.jpg
+
+[STEPPER Germany] stepper-2021-midnight-blue-fade - STEPPER Germany 2021 TX5 Aviator — Midnight Blue Ombré (3 imgs)
+    /assets/images/eyeglasses/stepper-2021-midnight-blue-fade-front.jpg
+    /assets/images/eyeglasses/stepper-2021-midnight-blue-fade-angle.jpg
+    /assets/images/eyeglasses/stepper-2021-midnight-blue-fade-side.jpg
+
+[STEPPER Germany] stepper-2021-ice-crystal-fade - STEPPER Germany 2021 TX5 Aviator — Ice Crystal Fade (3 imgs)
+    /assets/images/eyeglasses/stepper-2021-ice-crystal-fade-front.jpg
+    /assets/images/eyeglasses/stepper-2021-ice-crystal-fade-angle.jpg
+    /assets/images/eyeglasses/stepper-2021-ice-crystal-fade-side.jpg
+
+[STEPPER Germany] stepper-rect-classic-matte-black - STEPPER Germany Titanium Rectangle — Classic Matte Black (3 imgs)
+    /assets/images/eyeglasses/stepper-rect-classic-matte-black-front.jpg
+    /assets/images/eyeglasses/stepper-rect-classic-matte-black-angle.jpg
+    /assets/images/eyeglasses/stepper-rect-classic-matte-black-side.jpg
+
+[STEPPER Germany] stepper-rect-titanium-graphite-grey - STEPPER Germany Titanium Rectangle — Brushed Graphite Grey (3 imgs)
+    /assets/images/eyeglasses/stepper-rect-titanium-graphite-grey-front.jpg
+    /assets/images/eyeglasses/stepper-rect-titanium-graphite-grey-angle.jpg
+    /assets/images/eyeglasses/stepper-rect-titanium-graphite-grey-side.jpg
+
+[STEPPER Germany] stepper-rect-exec-midnight-navy - STEPPER Germany Titanium Rectangle — Executive Midnight Navy (4 imgs)
+    /assets/images/eyeglasses/stepper-rect-exec-midnight-navy-front.jpg
+    /assets/images/eyeglasses/stepper-rect-exec-midnight-navy-angle.jpg
+    /assets/images/eyeglasses/stepper-rect-exec-midnight-navy-side.jpg
+    /assets/images/eyeglasses/stepper-rect-exec-midnight-navy-specs.jpg
+
+[STEPPER Germany] stepper-rect-urban-bronze-tortoise - STEPPER Germany Titanium Rectangle — Dark Amber & Bronze (4 imgs)
+    /assets/images/eyeglasses/stepper-rect-urban-bronze-tortoise-front.jpg
+    /assets/images/eyeglasses/stepper-rect-urban-bronze-tortoise-angle.jpg
+    /assets/images/eyeglasses/stepper-rect-urban-bronze-tortoise-side.jpg
+    /assets/images/eyeglasses/stepper-rect-urban-bronze-tortoise-specs.jpg
+
+[Adidas Originals] adidas-2041-black-teal - Adidas Originals Sport 2041 — Black & Emerald Teal (4 imgs)
+    /assets/images/eyeglasses/adidas-2041-black-teal-front.jpg
+    /assets/images/eyeglasses/adidas-2041-black-teal-angle.jpg
+    /assets/images/eyeglasses/adidas-2041-black-teal-side.jpg
+    /assets/images/eyeglasses/adidas-2041-black-teal-specs.jpg
+
+[Adidas Originals] adidas-2041-crystal - Adidas Originals Sport 2041 — Crystal Clear & Onyx (4 imgs)
+    /assets/images/eyeglasses/adidas-2041-crystal-front.jpg
+    /assets/images/eyeglasses/adidas-2041-crystal-angle.jpg
+    /assets/images/eyeglasses/adidas-2041-crystal-side.jpg
+    /assets/images/eyeglasses/adidas-2041-crystal-specs.jpg
+
+[Adidas Originals] adidas-2041-smoke-grey - Adidas Originals Sport 2041 — Translucent Smoke Grey (4 imgs)
+    /assets/images/eyeglasses/adidas-2041-smoke-grey-front.jpg
+    /assets/images/eyeglasses/adidas-2041-smoke-grey-angle.jpg
+    /assets/images/eyeglasses/adidas-2041-smoke-grey-side.jpg
+    /assets/images/eyeglasses/adidas-2041-smoke-grey-specs.jpg
+
+[Adidas Originals] adidas-2041-marine-blue - Adidas Originals Sport 2041 — Translucent Marine Blue (4 imgs)
+    /assets/images/eyeglasses/adidas-2041-marine-blue-front.jpg
+    /assets/images/eyeglasses/adidas-2041-marine-blue-angle.jpg
+    /assets/images/eyeglasses/adidas-2041-marine-blue-side.jpg
+    /assets/images/eyeglasses/adidas-2041-marine-blue-specs.jpg
+
+[Regular Frames] regular-tr90-pilot-black-silver - Regular TR90 Flexible Pilot — Black & Silver Core (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-pilot-black-silver-front.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-black-silver-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-black-silver-side.jpg
+
+[Regular Frames] regular-tr90-pilot-black-gold - Regular TR90 Flexible Pilot — Gloss Black & Champagne Gold (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-pilot-black-gold-front.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-black-gold-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-black-gold-side.jpg
+
+[Regular Frames] regular-tr90-pilot-matte-charcoal - Regular TR90 Flexible Pilot — Matte Charcoal (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-pilot-matte-charcoal-front.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-matte-charcoal-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-matte-charcoal-side.jpg
+
+[Regular Frames] regular-tr90-pilot-gloss-black - Regular TR90 Aerodynamic Pilot — Streamline Black (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-pilot-gloss-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-gloss-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-gloss-black-side.jpg
+
+[Regular Frames] regular-tr90-retro-round-black-gold - Regular TR90 Retro Round — Black & Gold Bridge (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-retro-round-black-gold-front.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-round-black-gold-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-round-black-gold-side.jpg
+
+[Regular Frames] regular-tr90-exec-rectangle-tortoise - Regular TR90 Executive Rectangle — Amber Havana Tortoise (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-exec-rectangle-tortoise-front.jpg
+    /assets/images/eyeglasses/regular-tr90-exec-rectangle-tortoise-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-exec-rectangle-tortoise-side.jpg
+
+[Regular Frames] regular-tr90-slim-rectangle-amber - Regular TR90 Slimline Rectangle — Honey Demi Tortoise (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-slim-rectangle-amber-front.jpg
+    /assets/images/eyeglasses/regular-tr90-slim-rectangle-amber-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-slim-rectangle-amber-side.jpg
+
+[Regular Frames] regular-tr90-pilot-tomfamous-black - Regular TR90 Featherlight Aviator — Matte Black (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-pilot-tomfamous-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-tomfamous-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-tomfamous-black-side.jpg
+
+[Federal Atelier] regular-tr90-navigator-matte-black - Regular TR90 Navigator — Matte Black (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-navigator-matte-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-navigator-matte-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-navigator-matte-black-side.jpg
+
+[Federal Atelier] regular-tr90-rect-charcoal-smoke - Regular TR90 Executive Rectangle — Charcoal Smoke (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-rect-charcoal-smoke-front.jpg
+    /assets/images/eyeglasses/regular-tr90-rect-charcoal-smoke-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-rect-charcoal-smoke-side.jpg
+
+[Federal Atelier] regular-tr90-wayfarer-jet-black - Regular TR90 Classic Square — Jet Black (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-wayfarer-jet-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-wayfarer-jet-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-wayfarer-jet-black-side.jpg
+
+[Federal Atelier] regular-tr90-retro-round-amber-tortoise - Regular TR90 Retro Round — Amber Havana Tortoise (4 imgs)
+    /assets/images/eyeglasses/regular-tr90-retro-round-amber-tortoise-front.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-round-amber-tortoise-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-round-amber-tortoise-side.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-round-amber-tortoise-specs.jpg
+
+[Federal Atelier] regular-tr90-streamline-pilot-black - Regular TR90 Streamline Pilot — Pitch Black (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-streamline-pilot-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-streamline-pilot-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-streamline-pilot-black-side.jpg
+
+[Federal Atelier] regular-tr90-pantos-honey-crystal - Regular TR90 Pantos Round — Honey Crystal Demi (4 imgs)
+    /assets/images/eyeglasses/regular-tr90-pantos-honey-crystal-front.jpg
+    /assets/images/eyeglasses/regular-tr90-pantos-honey-crystal-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-pantos-honey-crystal-side.jpg
+    /assets/images/eyeglasses/regular-tr90-pantos-honey-crystal-specs.jpg
+
+[Federal Atelier] regular-tr90-exec-slim-matte-black - Regular TR90 Slim Executive — Satin Black (4 imgs)
+    /assets/images/eyeglasses/regular-tr90-exec-slim-matte-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-exec-slim-matte-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-exec-slim-matte-black-side.jpg
+    /assets/images/eyeglasses/regular-tr90-exec-slim-matte-black-specs.jpg
+
+[Federal Atelier] regular-tr90-browline-hybrid-black - Regular TR90 Browline Hybrid — Matte Black & Gunmetal (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-browline-hybrid-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-browline-hybrid-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-browline-hybrid-black-side.jpg
+
+[Federal Atelier] regular-tr90-pilot-metal-temple-black - Regular TR90 Pilot — Black with Silver Core Temples (4 imgs)
+    /assets/images/eyeglasses/regular-tr90-pilot-metal-temple-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-metal-temple-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-metal-temple-black-side.jpg
+    /assets/images/eyeglasses/regular-tr90-pilot-metal-temple-black-specs.jpg
+
+[Federal Atelier] regular-tr90-square-sport-grip-black - Regular TR90 Sport Grip Square — Onyx Black (4 imgs)
+    /assets/images/eyeglasses/regular-tr90-square-sport-grip-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-square-sport-grip-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-square-sport-grip-black-side.jpg
+    /assets/images/eyeglasses/regular-tr90-square-sport-grip-black-specs.jpg
+
+[Federal Atelier] regular-tr90-urban-rectangle-midnight - Regular TR90 Urban Rectangle — Midnight Navy (4 imgs)
+    /assets/images/eyeglasses/regular-tr90-urban-rectangle-midnight-front.jpg
+    /assets/images/eyeglasses/regular-tr90-urban-rectangle-midnight-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-urban-rectangle-midnight-side.jpg
+    /assets/images/eyeglasses/regular-tr90-urban-rectangle-midnight-specs.jpg
+
+[Federal Atelier] regular-tr90-contour-pilot-charcoal - Regular TR90 Contour Pilot — Steel Charcoal (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-contour-pilot-charcoal-front.jpg
+    /assets/images/eyeglasses/regular-tr90-contour-pilot-charcoal-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-contour-pilot-charcoal-side.jpg
+
+[Federal Atelier] regular-tr90-keyhole-round-dark-amber - Regular TR90 Keyhole Round — Dark Havana (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-keyhole-round-dark-amber-front.jpg
+    /assets/images/eyeglasses/regular-tr90-keyhole-round-dark-amber-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-keyhole-round-dark-amber-side.jpg
+
+[Federal Atelier] regular-tr90-architectural-square-black - Regular TR90 Architectural Square — Matte Onyx (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-architectural-square-black-front.jpg
+    /assets/images/eyeglasses/regular-tr90-architectural-square-black-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-architectural-square-black-side.jpg
+
+[Federal Atelier] regular-tr90-aviator-wire-double-bridge - Regular TR90 Double-Bridge Aviator — Carbon Black (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-aviator-wire-double-bridge-front.jpg
+    /assets/images/eyeglasses/regular-tr90-aviator-wire-double-bridge-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-aviator-wire-double-bridge-side.jpg
+
+[Federal Atelier] regular-tr90-classic-rectangle-deep-grey - Regular TR90 Classic Rectangle — Deep Slate Grey (3 imgs)
+    /assets/images/eyeglasses/regular-tr90-classic-rectangle-deep-grey-front.jpg
+    /assets/images/eyeglasses/regular-tr90-classic-rectangle-deep-grey-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-classic-rectangle-deep-grey-side.jpg
+
+[Federal Atelier] regular-tr90-retro-horn-rim-amber-gold - Regular TR90 Retro Horn-Rim — Demi Amber & Gold (4 imgs)
+    /assets/images/eyeglasses/regular-tr90-retro-horn-rim-amber-gold-front.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-horn-rim-amber-gold-angle.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-horn-rim-amber-gold-side.jpg
+    /assets/images/eyeglasses/regular-tr90-retro-horn-rim-amber-gold-specs.jpg
+
+[Ray-Ban Junior] rayban-xh6041-cateye-black - Ray-Ban Junior XH6041 Teen Sheet Acetate Cat-Eye (4 imgs)
+    /assets/images/eyeglasses/rayban-xh6041-cateye-black-front.jpg
+    /assets/images/eyeglasses/rayban-xh6041-cateye-black-angle.jpg
+    /assets/images/eyeglasses/rayban-xh6041-cateye-black-side.jpg
+    /assets/images/eyeglasses/rayban-xh6041-cateye-black-specs.jpg
+
+[Ray-Ban Junior] rayban-xh6042-butterfly-black - Ray-Ban Junior XH6042 Teen Butterfly Wing Cat-Eye (4 imgs)
+    /assets/images/eyeglasses/rayban-xh6042-butterfly-black-front.jpg
+    /assets/images/eyeglasses/rayban-xh6042-butterfly-black-angle.jpg
+    /assets/images/eyeglasses/rayban-xh6042-butterfly-black-side.jpg
+    /assets/images/eyeglasses/rayban-xh6042-butterfly-black-specs.jpg
+
+[Ray-Ban Junior] rayban-xh6043-round-black - Ray-Ban Junior XH6043 Teen Pantos Round — Polished Black (4 imgs)
+    /assets/images/eyeglasses/rayban-xh6043-round-black-front.jpg
+    /assets/images/eyeglasses/rayban-xh6043-round-black-angle.jpg
+    /assets/images/eyeglasses/rayban-xh6043-round-black-side.jpg
+    /assets/images/eyeglasses/rayban-xh6043-round-black-specs.jpg
+
+[Ray-Ban Junior] rayban-xh6043-round-burgundy - Ray-Ban Junior XH6043 Teen Pantos Round — Bordeaux Wine (4 imgs)
+    /assets/images/eyeglasses/rayban-xh6043-round-burgundy-front.jpg
+    /assets/images/eyeglasses/rayban-xh6043-round-burgundy-angle.jpg
+    /assets/images/eyeglasses/rayban-xh6043-round-burgundy-side.jpg
+    /assets/images/eyeglasses/rayban-xh6043-round-burgundy-specs.jpg
+
+[Police] police-clip-on-black-yellow - Police Dual-Vision Metal Eyeglasses with Night-Vision Clip-On (5 imgs)
+    /eyeglassimages/POLICE/police metal frame black yellow attchment rs 3500/WhatsApp Image 2026-09-20 at 3.01.51 PM.jpeg
+    /eyeglassimages/POLICE/police metal frame black yellow attchment rs 3500/WhatsApp Image 2026-09-20 at 3.01.52 PM.jpeg
+    /eyeglassimages/POLICE/police metal frame black yellow attchment rs 3500/WhatsApp Image 2026-09-20 at 3.01.53 PM.jpeg
+    /eyeglassimages/POLICE/police metal frame black yellow attchment rs 3500/WhatsApp Image 2026-09-20 at 3.01.54 PM (1).jpeg
+    /eyeglassimages/POLICE/police metal frame black yellow attchment rs 3500/WhatsApp Image 2026-09-20 at 3.01.54 PM.jpeg
+
+[Ray-Ban] rayban-metal-wire-arista-gold - Ray-Ban Fine Wire Round Metal \u2014 Polished Arista Gold (4 imgs)
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.53 PM.jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.54 PM.jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.55 PM.jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.56 PM (1).jpeg
+
+[Ray-Ban] rayban-metal-wire-satin-black - Ray-Ban Fine Wire Round Metal \u2014 Satin Matte Black (4 imgs)
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.56 PM (2).jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.56 PM.jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.57 PM (1).jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.57 PM.jpeg
+
+[Ray-Ban] rayban-metal-wire-pewter-silver - Ray-Ban Fine Wire Round Metal \u2014 Brushed Pewter Silver (3 imgs)
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.58 PM.jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.59 PM (1).jpeg
+    /eyeglassimages/RAY BAN/premium ray ban metal frames rs Rs4450/WhatsApp Image 2026-09-20 at 2.20.59 PM.jpeg
+
+[Ray-Ban] rayban-hex-metal-arista-gold - Ray-Ban Hexagonal Geometric Metal \u2014 Polished Arista Gold (4 imgs)
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.35 PM.jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.36 PM.jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.37 PM (1).jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.37 PM (2).jpeg
+
+[Ray-Ban] rayban-hex-metal-matte-gunmetal - Ray-Ban Hexagonal Geometric Metal \u2014 Matte Gunmetal (4 imgs)
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.37 PM.jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.38 PM (1).jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.38 PM (2).jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.38 PM (3).jpeg
+
+[Ray-Ban] rayban-hex-metal-chrome-silver - Ray-Ban Hexagonal Geometric Metal \u2014 Chrome Silver (4 imgs)
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.38 PM.jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.39 PM.jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.40 PM (1).jpeg
+    /eyeglassimages/RAY BAN/premium rayban metal rs 4650/WhatsApp Image 2026-09-20 at 2.17.40 PM.jpeg
+
+[Tiffany & Co.] tiffany-tr-blush-rose-gold - Tiffany & Co. TR90 Sculpted Cat-Eye \u2014 Rose Gold & Blush Crystal (4 imgs)
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.32 PM (1).jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.32 PM.jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.33 PM (1).jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.33 PM.jpeg
+
+[Tiffany & Co.] tiffany-tr-signature-cyan - Tiffany & Co. TR90 Sculpted Cat-Eye \u2014 Signature Tiffany Blue & Silver (4 imgs)
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.34 PM (1).jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.34 PM.jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.35 PM (1).jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.35 PM.jpeg
+
+[Tiffany & Co.] tiffany-tr-onyx-gold - Tiffany & Co. TR90 Sculpted Cat-Eye \u2014 Polished Onyx & Champagne Gold (4 imgs)
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.36 PM (1).jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.36 PM.jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.37 PM (1).jpeg
+    /eyeglassimages/Tiffany TR  Frames Rs4250 women category/WhatsApp Image 2026-09-20 at 2.24.37 PM.jpeg
+
+[Knight Horse] knight-horse-sq-01-matte-black - Knight Horse Square Trendy Eyeglasses \u2014 Matte Onyx Black (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.30 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.31 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.31 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.31 PM.jpeg
+
+[Knight Horse] knight-horse-sq-02-dark-gunmetal - Knight Horse Square Trendy Eyeglasses \u2014 Brushed Gunmetal (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.32 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.32 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.33 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.33 PM.jpeg
+
+[Knight Horse] knight-horse-sq-03-midnight-navy - Knight Horse Square Trendy Eyeglasses \u2014 Midnight Navy (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.34 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.34 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.34 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.35 PM (1).jpeg
+
+[Knight Horse] knight-horse-sq-04-espresso-tortoise - Knight Horse Square Trendy Eyeglasses \u2014 Espresso Havana (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.35 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.35 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.37 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.41.41 PM.jpeg
+
+[Knight Horse] knight-horse-sq-05-slate-charcoal - Knight Horse Square Trendy Eyeglasses \u2014 Deep Slate Charcoal (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.06 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.07 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.07 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.09 PM (1).jpeg
+
+[Knight Horse] knight-horse-sq-06-crystal-smoke - Knight Horse Square Trendy Eyeglasses \u2014 Translucent Smoke Grey (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.09 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.10 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.10 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.10 PM.jpeg
+
+[Knight Horse] knight-horse-sq-07-gloss-black - Knight Horse Square Trendy Eyeglasses \u2014 Polished Jet Black (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.11 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.12 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.12 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.12 PM (3).jpeg
+
+[Knight Horse] knight-horse-sq-08-olive-demi - Knight Horse Square Trendy Eyeglasses \u2014 Forest Olive Demi (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.12 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.13 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.13 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.45.14 PM.jpeg
+
+[Knight Horse] knight-horse-sq-09-amber-brown - Knight Horse Square Trendy Eyeglasses \u2014 Amber Cognac Brown (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.32 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.33 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.33 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.33 PM.jpeg
+
+[Knight Horse] knight-horse-sq-10-graphite-silver - Knight Horse Square Trendy Eyeglasses \u2014 Graphite Silver Edge (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.34 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.34 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.34 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.35 PM (1).jpeg
+
+[Knight Horse] knight-horse-sq-11-crystal-clear - Knight Horse Square Trendy Eyeglasses \u2014 Translucent Ice Crystal (4 imgs)
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.35 PM (2).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.35 PM.jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.36 PM (1).jpeg
+    /eyeglassimages/knight horse square trendy shape rs 4250 for men/WhatsApp Image 2026-09-20 at 2.51.36 PM.jpeg
+
+[Ray-Ban] rayban-sun-aviator-hybrid-black-gold - Ray-Ban Hybrid Aviator Sunglasses \u2014 Matte Black & Gold (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.05 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.08 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.08 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.09 PM (1).jpeg
+
+[Ray-Ban] rayban-sun-aviator-hybrid-gunmetal-tortoise - Ray-Ban Hybrid Aviator Sunglasses \u2014 Gunmetal & Havana Rim (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.09 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.09 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.10 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.10 PM (2).jpeg
+
+[Ray-Ban] rayban-sun-aviator-hybrid-silver-smoke - Ray-Ban Hybrid Aviator Sunglasses \u2014 Silver & Smoke Crystal (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.10 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.11 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.11 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap  Mattel + Plastic for men rs 4650/WhatsApp Image 2026-09-25 at 3.13.11 PM.jpeg
+
+[Ray-Ban] rayban-sun-aviator-wire-matte-black - Ray-Ban Classic Wire Aviator Sunglasses \u2014 Pitch Matte Black (8 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.30 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.39 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.40 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.41 PM.jpeg
+
+[Ray-Ban] rayban-sun-aviator-wire-gunmetal-gray - Ray-Ban Classic Wire Aviator Sunglasses \u2014 Gunmetal Gray Polarized (8 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.42 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.43 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.44 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses aviator shap rs 3800 color black
+    gray/WhatsApp Image 2026-09-25 at 3.10.44 PM.jpeg
+
+[Ray-Ban] rayban-sun-sami-sq-gloss-black - Ray-Ban Semi-Square Wayfarer Sunglasses \u2014 Polished Black (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.10 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.12 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.12 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.12 PM.jpeg
+
+[Ray-Ban] rayban-sun-sami-sq-matte-black - Ray-Ban Semi-Square Wayfarer Sunglasses \u2014 Matte Black G-15 (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.13 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.13 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.14 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.14 PM (2).jpeg
+
+[Ray-Ban] rayban-sun-sami-sq-dark-havana - Ray-Ban Semi-Square Wayfarer Sunglasses \u2014 Dark Havana Tortoise (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.14 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.15 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.16 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.16 PM.jpeg
+
+[Ray-Ban] rayban-sun-sami-sq-crystal-grey - Ray-Ban Semi-Square Wayfarer Sunglasses \u2014 Translucent Smoke Grey (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.17 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.19 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.19 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.19 PM.jpeg
+
+[Ray-Ban] rayban-sun-sami-sq-amber-brown - Ray-Ban Semi-Square Wayfarer Sunglasses \u2014 Amber Gold Gradient (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.20 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.20 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.21 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.21 PM (2).jpeg
+
+[Ray-Ban] rayban-sun-sami-sq-deep-blue - Ray-Ban Semi-Square Wayfarer Sunglasses \u2014 Deep Navy Crystal (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.21 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.22 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.23 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.24 PM (1).jpeg
+
+[Ray-Ban] rayban-sun-sami-sq-matte-tortoise - Ray-Ban Semi-Square Wayfarer Sunglasses \u2014 Matte Honey Tortoise (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.24 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.24 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.25 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban Sunglasses Sami Square shape Unisex rs 3650/WhatsApp Image 2026-09-25 at 2.25.25 PM.jpeg
+
+[Ray-Ban] rayban-sun-tr-pol-matte-black - Ray-Ban TR90 Polarized Active Sunglasses \u2014 Matte Black (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.30 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.32 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.32 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.32 PM.jpeg
+
+[Ray-Ban] rayban-sun-tr-pol-havana-brown - Ray-Ban TR90 Polarized Active Sunglasses \u2014 Demi Havana Brown (4 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.33 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.33 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.33 PM (3).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.33 PM.jpeg
+
+[Ray-Ban] rayban-sun-tr-pol-ocean-blue - Ray-Ban TR90 Polarized Active Sunglasses \u2014 Ocean Blue Polarized (5 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.35 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.35 PM (2).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.35 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.36 PM (1).jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.36 PM.jpeg
+
+[Ray-Ban] rayban-sun-tr-pol-forest-green - Ray-Ban TR90 Polarized Active Sunglasses \u2014 Forest Green Polarized (5 imgs)
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.37 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.38 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.43 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.46 PM.jpeg
+    /eyeglassimages/sunglasses/Ray-Ban TR Polarized Sunglasses rs4250/WhatsApp Image 2026-09-25 at 2.35.47 PM.jpeg
+
+[Ray-Ban] rayban-sun-round-gold-green - Ray-Ban Iconic Round Metal Sunglasses \u2014 Arista Gold & G-15 Green (5 imgs)
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.51 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.52 PM (1).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.52 PM (2).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.52 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.53 PM.jpeg
+
+[Ray-Ban] rayban-sun-round-matte-black - Ray-Ban Iconic Round Metal Sunglasses \u2014 Total Matte Black (4 imgs)
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.54 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.55 PM (1).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.55 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.13.56 PM.jpeg
+
+[Ray-Ban] rayban-sun-round-silver-blue - Ray-Ban Iconic Round Metal Sunglasses \u2014 Silver Chrome & Flash Blue (5 imgs)
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.11 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.13 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.14 PM (1).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.14 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.15 PM.jpeg
+
+[Ray-Ban] rayban-sun-round-rose-gold-brown - Ray-Ban Iconic Round Metal Sunglasses \u2014 Rose Gold & Brown Gradient (5 imgs)
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.16 PM (1).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.16 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.17 PM (1).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.17 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.18 PM (1).jpeg
+
+[Ray-Ban] rayban-sun-round-gunmetal-grey - Ray-Ban Iconic Round Metal Sunglasses \u2014 Gunmetal & Gradient Smoke (5 imgs)
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.18 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.19 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.20 PM (1).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.20 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.21 PM.jpeg
+
+[Ray-Ban] rayban-sun-round-bronze-amber - Ray-Ban Iconic Round Metal Sunglasses \u2014 Antique Bronze & Amber (6 imgs)
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.22 PM (1).jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.22 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.23 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.24 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.25 PM.jpeg
+    /eyeglassimages/sunglasses/rayban metal sun glasses round shape rs 3650/WhatsApp Image 2026-09-20 at 3.14.26 PM.jpeg
+
+[Ray-Ban Scuderia Ferrari] rayban-ferrari-aviator-matte-black-red - Ray-Ban Scuderia Ferrari Polarized Aviator \u2014 Matte Black & Rosso Corsa (5 imgs)
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.53 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.53 PM (2).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.53 PM.jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.54 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.54 PM (2).jpeg
+
+[Ray-Ban Scuderia Ferrari] rayban-ferrari-aviator-gunmetal-yellow - Ray-Ban Scuderia Ferrari Polarized Aviator \u2014 Gunmetal & Modena Yellow (5 imgs)
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.54 PM.jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.55 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.55 PM.jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.56 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.56 PM.jpeg
+
+[Ray-Ban Scuderia Ferrari] rayban-ferrari-aviator-silver-black - Ray-Ban Scuderia Ferrari Polarized Aviator \u2014 Carbon Silver & Black Polarized (5 imgs)
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.58 PM.jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.59 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.59 PM (2).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.18.59 PM.jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban + feraari polarized avator shape  rs4850 for men/WhatsApp Image 2026-09-25 at 3.19.00 PM.jpeg
+
+[Ray-Ban] rayban-sun-sheet-black-polarized - Ray-Ban High-Gloss Sheet Acetate Sunglasses \u2014 Deep Onyx Black (4 imgs)
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.54 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.54 PM.jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.55 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.55 PM (2).jpeg
+
+[Ray-Ban] rayban-sun-sheet-havana-tortoise - Ray-Ban High-Gloss Sheet Acetate Sunglasses \u2014 Rich Havana Tortoise (4 imgs)
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.55 PM.jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.56 PM (1).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.56 PM (2).jpeg
+    /eyeglassimages/sunglasses/sunglasses rayban sheet glasses rs 4650/WhatsApp Image 2026-09-20 at 2.56.56 PM.jpeg
+
+[DITA] dita-solid-noir-black - DITA Solid Architectural Frame — Onyx Noir Black (3 imgs)
+    /assets/images/eyeglasses/dita-solid-noir-black-front.jpg
+    /assets/images/eyeglasses/dita-solid-noir-black-angle.jpg
+    /assets/images/eyeglasses/dita-solid-noir-black-side.jpg
+
+[DITA] dita-solid-tiger-print - DITA Solid Architectural Frame — Tiger Print Temples (3 imgs)
+    /assets/images/eyeglasses/dita-solid-tiger-print-front.jpg
+    /assets/images/eyeglasses/dita-solid-tiger-print-angle.jpg
+    /assets/images/eyeglasses/dita-solid-tiger-print-side.jpg
+
+[DITA] dita-solid-smoke-gray - DITA Solid Architectural Frame — Translucent Smoke Gray (3 imgs)
+    /assets/images/eyeglasses/dita-solid-smoke-gray-front.jpg
+    /assets/images/eyeglasses/dita-solid-smoke-gray-angle.jpg
+    /assets/images/eyeglasses/dita-solid-smoke-gray-side.jpg
+
+[DITA] dita-solid-cognac-brown - DITA Solid Architectural Frame — Rich Cognac Amber (4 imgs)
+    /assets/images/eyeglasses/dita-solid-cognac-brown-front.jpg
+    /assets/images/eyeglasses/dita-solid-cognac-brown-angle.jpg
+    /assets/images/eyeglasses/dita-solid-cognac-brown-side.jpg
+    /assets/images/eyeglasses/dita-solid-cognac-brown-specs.jpg
+
+[Good Quality] gq-square-brown-twotone - Good Quality Square Metal Temple — Brown Two-Tone (3 imgs)
+    /assets/images/eyeglasses/gq-square-brown-twotone-front.jpg
+    /assets/images/eyeglasses/gq-square-brown-twotone-angle.jpg
+    /assets/images/eyeglasses/gq-square-brown-twotone-side.jpg
+
+[Good Quality] gq-square-jet-black - Good Quality Square Metal Temple — Solid Jet Black (3 imgs)
+    /assets/images/eyeglasses/gq-square-jet-black-front.jpg
+    /assets/images/eyeglasses/gq-square-jet-black-angle.jpg
+    /assets/images/eyeglasses/gq-square-jet-black-side.jpg
+
+[Good Quality] gq-square-crystal-lblue - Good Quality Square Metal Temple — Crystal Light Blue (3 imgs)
+    /assets/images/eyeglasses/gq-square-crystal-lblue-front.jpg
+    /assets/images/eyeglasses/gq-square-crystal-lblue-angle.jpg
+    /assets/images/eyeglasses/gq-square-crystal-lblue-side.jpg
+
+[Good Quality] gq-square-navy-twotone - Good Quality Square Metal Temple — Navy Blue Two-Tone (3 imgs)
+    /assets/images/eyeglasses/gq-square-navy-twotone-front.jpg
+    /assets/images/eyeglasses/gq-square-navy-twotone-angle.jpg
+    /assets/images/eyeglasses/gq-square-navy-twotone-side.jpg
+
+[Good Quality] gq-teen-flexible-slate-gray - Good Quality Teen Flexible SafeFrame — Slate Gray (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-slate-gray-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-slate-gray-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-slate-gray-side.jpg
+
+[Good Quality] gq-teen-flexible-royal-blue - Good Quality Teen Flexible SafeFrame — Royal Cobalt Blue (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-royal-blue-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-royal-blue-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-royal-blue-side.jpg
+
+[Good Quality] gq-teen-flexible-light-purple - Good Quality Teen Flexible SafeFrame — Pastel Lilac Purple (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-light-purple-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-light-purple-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-light-purple-side.jpg
+
+[Good Quality] gq-teen-flexible-black-twotone - Good Quality Teen Flexible SafeFrame — Black Two-Tone Ombré (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-black-twotone-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-black-twotone-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-black-twotone-side.jpg
+
+[Good Quality] gq-teen-flexible-matte-black - Good Quality Teen Flexible SafeFrame — Solid Matte Black (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-jet-black-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-jet-black-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-jet-black-side.jpg
+
+[Good Quality] gq-teen-flexible-blush-pink - Good Quality Teen Flexible SafeFrame — Soft Blush Pink (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-light-pink-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-light-pink-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-light-pink-side.jpg
+
+[Good Quality] gq-teen-flexible-dark-brown - Good Quality Teen Flexible SafeFrame — Espresso Dark Brown (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-dark-brown-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-dark-brown-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-dark-brown-side.jpg
+
+[Good Quality] gq-teen-flexible-classic-brown - Good Quality Teen Flexible SafeFrame — Classic Amber Brown (3 imgs)
+    /assets/images/eyeglasses/gq-teen-flexible-classic-brown-front.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-classic-brown-angle.jpg
+    /assets/images/eyeglasses/gq-teen-flexible-classic-brown-side.jpg
+
+[Good Quality] gq-big-square-noir-black - Good Quality Oversized Square — Polished Noir Black (3 imgs)
+    /assets/images/eyeglasses/gq-big-square-noir-black-front.jpg
+    /assets/images/eyeglasses/gq-big-square-noir-black-angle.jpg
+    /assets/images/eyeglasses/gq-big-square-noir-black-side.jpg
+
+[Good Quality] gq-big-square-amber-tortoise - Good Quality Oversized Square — Warm Amber Tortoise (3 imgs)
+    /assets/images/eyeglasses/gq-big-square-amber-tortoise-front.jpg
+    /assets/images/eyeglasses/gq-big-square-amber-tortoise-angle.jpg
+    /assets/images/eyeglasses/gq-big-square-amber-tortoise-side.jpg
+
+[Look Nice] looknice-square-gloss-black - Look Nice Big Square Metal Temple — Polished Gloss Black (3 imgs)
+    /assets/images/eyeglasses/looknice-square-gloss-black-front.jpg
+    /assets/images/eyeglasses/looknice-square-gloss-black-angle.jpg
+    /assets/images/eyeglasses/looknice-square-gloss-black-side.jpg
+
+[Look Nice] looknice-square-matte-black - Look Nice Big Square Metal Temple — Stealth Matte Black (3 imgs)
+    /assets/images/eyeglasses/looknice-square-matte-black-front.jpg
+    /assets/images/eyeglasses/looknice-square-matte-black-angle.jpg
+    /assets/images/eyeglasses/looknice-square-matte-black-side.jpg
+
+[Look Nice] looknice-square-smoke-gray - Look Nice Big Square Metal Temple — Translucent Smoke Gray (3 imgs)
+    /assets/images/eyeglasses/looknice-square-smoke-gray-front.jpg
+    /assets/images/eyeglasses/looknice-square-smoke-gray-angle.jpg
+    /assets/images/eyeglasses/looknice-square-smoke-gray-side.jpg
+
+[Look Nice] looknice-square-demi-brown - Look Nice Big Square Metal Temple — Classic Demi Brown (3 imgs)
+    /assets/images/eyeglasses/looknice-square-demi-brown-front.jpg
+    /assets/images/eyeglasses/looknice-square-demi-brown-angle.jpg
+    /assets/images/eyeglasses/looknice-square-demi-brown-side.jpg
+
+[Look Nice] looknice-square-amber-twotone - Look Nice Big Square Metal Temple — Amber Two-Tone Fade (3 imgs)
+    /assets/images/eyeglasses/looknice-square-amber-twotone-front.jpg
+    /assets/images/eyeglasses/looknice-square-amber-twotone-angle.jpg
+    /assets/images/eyeglasses/looknice-square-amber-twotone-side.jpg
+

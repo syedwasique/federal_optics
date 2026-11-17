@@ -1,0 +1,77 @@
+import re
+from collections import defaultdict
+
+with open('src/data/products.ts', 'r', encoding='utf-8') as f:
+    text = f.read()
+
+pattern = re.compile(
+    r'id:\s*[\'"]([^\'"]+)[\'"],\s*'
+    r'name:\s*[\'"]([^\'"]+)[\'"],\s*'
+    r'sku:\s*[\'"]([^\'"]+)[\'"],\s*'
+    r'category:\s*[\'"]([^\'"]+)[\'"],[\s\S]*?'
+    r'brand:\s*[\'"]([^\'"]+)[\'"],[\s\S]*?'
+    r'price:\s*(\d+),[\s\S]*?'
+    r'images:\s*\[([\s\S]*?)\][\s\S]*?'
+    r'availableColors:\s*\[([\s\S]*?)\]',
+    re.MULTILINE
+)
+
+products = []
+
+for match in pattern.finditer(text):
+    pid = match.group(1)
+    name = match.group(2)
+    sku = match.group(3)
+    category = match.group(4)
+    brand = match.group(5)
+    price = int(match.group(6))
+    raw_images = match.group(7)
+    raw_colors = match.group(8)
+    
+    images = [i.strip().strip('\'" ') for i in raw_images.split(',') if i.strip().strip('\'" ')]
+    
+    # Normalize name
+    norm_name = name.replace('\\u2014', '—').replace('&mdash;', '—')
+    delims = [' — ', ' – ', ' - ']
+    base_name = norm_name
+    variant_name = ""
+    for d in delims:
+        if d in norm_name:
+            parts = norm_name.split(d)
+            base_name = parts[0].strip()
+            variant_name = parts[1].strip()
+            break
+            
+    products.append({
+        'id': pid,
+        'name': norm_name,
+        'base_name': base_name,
+        'variant_name': variant_name,
+        'sku': sku,
+        'category': category,
+        'brand': brand,
+        'price': price,
+        'images': images,
+        'raw_colors': raw_colors
+    })
+
+groups = defaultdict(list)
+for p in products:
+    if p['category'] in ['eyeglasses', 'sunglasses', 'tint-eyeglasses']:
+        key = (p['category'], p['brand'].strip(), p['base_name'].strip())
+        groups[key].append(p)
+
+multi = {k: v for k, v in groups.items() if len(v) > 1}
+single = {k: v for k, v in groups.items() if len(v) == 1}
+
+print(f"Total multi groups: {len(multi)}")
+for i, ((cat, brand, base_name), items) in enumerate(sorted(multi.items(), key=lambda x: (x[0][0], x[0][1], x[0][2])), 1):
+    print(f"\n{i}. [{cat}] {brand} :: {base_name} ({len(items)} color variants)")
+    for it in items:
+        print(f"    - {it['id']}: '{it['variant_name']}' (sku: {it['sku']})")
+
+print(f"\nTotal single groups: {len(single)}")
+for (cat, brand, base_name), items in sorted(single.items(), key=lambda x: (x[0][0], x[0][1], x[0][2])):
+    it = items[0]
+    print(f"  SINGLE: [{cat}] {brand} :: {it['name']} ({it['id']})")
+

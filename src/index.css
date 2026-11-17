@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme {
+  /* Two families site-wide: Outfit for headings/display, Plus Jakarta Sans for body/UI. */
+  --font-heading: "Outfit", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-charcoal-950: #0a0b0d;
+  --color-charcoal-900: #121316;
+  --color-charcoal-800: #1c1e24;
+  --color-charcoal-700: #2b2e36;
+  --color-charcoal-600: #444754;
+
+  --color-gold-300: #e8d7be;
+  --color-gold-400: #d6be9c;
+  --color-gold-500: #c5a880;
+  --color-gold-600: #b09165;
+  --color-gold-700: #8c7048;
+
+  --color-ivory-50: #fdfcf9;
+  --color-ivory-100: #faf8f5;
+  --color-ivory-200: #f4efe7;
+  --color-ivory-300: #ece5d8;
+  --color-ivory-400: #dfd5c4;
+}
+
+html, body {
+  overflow-x: clip;
+}
+
+/* Shared page container: header, hero content and every page section use
+   this, so their left/right edges line up exactly at every width.
+   1440px max content; side gutter scales 20px (phones) -> 64px (desktop). */
+:root {
+  --gutter: clamp(20px, 5vw, 64px);
+  --container-max: 1440px;
+  /* left edge of the container content, usable inside full-bleed layers */
+  --container-left: max(var(--gutter), calc((100% - var(--container-max)) / 2));
+}
+
+@utility site-container {
+  width: min(calc(100% - 2 * var(--gutter)), var(--container-max));
+  margin-inline: auto;
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Home hero: per-slide crop + scrim, swapped with the <picture> source at the
+   same orientation breakpoint (see HeroSlider.tsx). */
+.hero-img {
+  object-position: var(--pos-d, 50% 50%);
+}
+.hero-scrim {
+  background-image: var(--scrim-d);
+}
+@media (orientation: portrait) {
+  .hero-img {
+    object-position: var(--pos-m, 50% 0%);
+  }
+  .hero-scrim {
+    background-image: var(--scrim-m);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6be9c;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a880;
+}
+
+/* Hide scrollbar for horizontal product rails while allowing swipe/scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Typography helper classes */
+.font-sans-ui {
+  font-family: var(--font-sans);
+}
+
+/* Optical glass shimmer / subtle luxury gradients */
+.gold-shimmer {
+  background: linear-gradient(135deg, #c5a880 0%, #ecdcc7 50%, #b09165 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #b09165 0%, #c5a880 40%, #8c7048 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

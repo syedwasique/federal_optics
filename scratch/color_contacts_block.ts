@@ -1,0 +1,2512 @@
+  {
+    id: "bl-dia-diamond-brown",
+    name: "Bella Diamond — Diamond Brown",
+    sku: "BL-DIA-01",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND  DAIMOND BROWN/WhatsApp Image 2026-10-17 at 10.37.54 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND  DAIMOND BROWN/WhatsApp Image 2026-10-17 at 10.37.54 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Diamond Brown shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Diamond Brown", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-agate-brown",
+    name: "Bella Diamond — Agate Brown",
+    sku: "BL-DIA-02",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND AGATE BROWN/WhatsApp Image 2026-10-17 at 10.37.59 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND AGATE BROWN/WhatsApp Image 2026-10-17 at 10.37.59 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Agate Brown shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Agate Brown", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-allure-blonde",
+    name: "Bella Diamond — Allure Blonde",
+    sku: "BL-DIA-03",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND ALLURE BLONDE/WhatsApp Image 2026-10-17 at 9.00.18 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND ALLURE BLONDE/WhatsApp Image 2026-10-17 at 9.00.18 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Allure Blonde shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Allure Blonde", hex: "#d97706" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-breeze",
+    name: "Bella Diamond — Breeze",
+    sku: "BL-DIA-04",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND BREEZE/WhatsApp Image 2026-10-17 at 10.38.01 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND BREEZE/WhatsApp Image 2026-10-17 at 10.38.00 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND BREEZE/WhatsApp Image 2026-10-17 at 10.38.01 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Breeze shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Blue",
+    availableColors: [
+      { name: "Breeze", hex: "#0284c7" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-brown-shadow",
+    name: "Bella Diamond — Brown Shadow",
+    sku: "BL-DIA-05",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND BROWN SHADOW/WhatsApp Image 2026-10-17 at 9.00.17 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND BROWN SHADOW/WhatsApp Image 2026-10-17 at 9.00.17 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Brown Shadow shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Brown Shadow", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-glitter-gray",
+    name: "Bella Diamond — Glitter Gray",
+    sku: "BL-DIA-06",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND GLITTER GRAY/WhatsApp Image 2026-10-17 at 10.38.02 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND GLITTER GRAY/WhatsApp Image 2026-10-17 at 10.38.02 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Glitter Gray shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Glitter Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-gray-green",
+    name: "Bella Diamond — Gray Green",
+    sku: "BL-DIA-07",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND GRAY GREEN/WhatsApp Image 2026-10-17 at 10.37.57 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND GRAY GREEN/WhatsApp Image 2026-10-17 at 10.37.58 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Gray Green shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Gray Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-mysterious",
+    name: "Bella Diamond — Mysterious",
+    sku: "BL-DIA-08",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND MYSTERIOUS/WhatsApp Image 2026-10-17 at 10.37.57 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND MYSTERIOUS/WhatsApp Image 2026-10-17 at 10.37.56 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND MYSTERIOUS/WhatsApp Image 2026-10-17 at 10.37.57 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Mysterious shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Mysterious", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-oak",
+    name: "Bella Diamond — Oak",
+    sku: "BL-DIA-09",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND OAK/WhatsApp Image 2026-10-17 at 10.37.59 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND OAK/WhatsApp Image 2026-10-17 at 10.37.58 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND OAK/WhatsApp Image 2026-10-17 at 10.37.59 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Oak shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Oak", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-silver-mist",
+    name: "Bella Diamond — Silver Mist",
+    sku: "BL-DIA-10",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND SILVER MIST/WhatsApp Image 2026-10-17 at 10.38.03 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND SILVER MIST/WhatsApp Image 2026-10-17 at 10.38.03 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Silver Mist shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Silver Mist", hex: "#94a3b8" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-wood-stone",
+    name: "Bella Diamond — Wood Stone",
+    sku: "BL-DIA-11",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND WOOD STONE/WhatsApp Image 2026-10-17 at 10.50.09 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMOND WOOD STONE/WhatsApp Image 2026-10-17 at 10.50.10 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Wood Stone shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Wood Stone", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-jade-green",
+    name: "Bella Diamond — Jade Green",
+    sku: "BL-DIA-12",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS JADE GREEN/WhatsApp Image 2026-10-17 at 10.38.00 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS JADE GREEN/WhatsApp Image 2026-10-17 at 10.38.00 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Jade Green shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Jade Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-moon-stone",
+    name: "Bella Diamond — Moon Stone",
+    sku: "BL-DIA-13",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS MOON STONE RS 5300/WhatsApp Image 2026-10-17 at 9.00.15 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS MOON STONE RS 5300/WhatsApp Image 2026-10-17 at 9.00.15 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS MOON STONE RS 5300/WhatsApp Image 2026-10-17 at 9.00.16 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Moon Stone shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Moon Stone", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-nay",
+    name: "Bella Diamond — Nay",
+    sku: "BL-DIA-14",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS NAY/WhatsApp Image 2026-10-17 at 10.37.55 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS NAY/WhatsApp Image 2026-10-17 at 10.37.55 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Nay shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Nay", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-dia-wood-leaf",
+    name: "Bella Diamond — Wood Leaf",
+    sku: "BL-DIA-15",
+    category: 'color-contacts',
+    subCategory: "Bella Diamond Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5300,
+    originalPrice: 6500,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS WOOD LEAF/WhatsApp Image 2026-10-17 at 9.00.16 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA DAIMOND/BELLA DAIMONDS WOOD LEAF/WhatsApp Image 2026-10-17 at 9.00.16 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Wood Leaf shade from the Bella Diamond Collection. Exquisite diamond-patterned iris definition with luminous depth and captivating shimmer. Engineered with 38% water content polymacon for seamless, luxurious blend on brown Asian eyes.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Wood Leaf", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-amber-gray",
+    name: "Bella Elite — Amber Gray",
+    sku: "BL-ELT-01",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/AMBER GRAY/WhatsApp Image 2026-10-17 at 3.22.38 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/AMBER GRAY/WhatsApp Image 2026-10-17 at 3.22.38 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/AMBER GRAY/WhatsApp Image 2026-10-17 at 3.22.39 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Amber Gray shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Amber Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-cinnamon-brown",
+    name: "Bella Elite — Cinnamon Brown",
+    sku: "BL-ELT-02",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CINNAMON BROWN/WhatsApp Image 2026-10-17 at 3.53.43 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CINNAMON BROWN/WhatsApp Image 2026-10-17 at 3.53.43 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CINNAMON BROWN/WhatsApp Image 2026-10-17 at 3.53.44 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Cinnamon Brown shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Cinnamon Brown", hex: "#b45309" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-cloudy-gray",
+    name: "Bella Elite — Cloudy Gray",
+    sku: "BL-ELT-03",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CLOUDY GRAY/WhatsApp Image 2026-10-17 at 3.29.43 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CLOUDY GRAY/WhatsApp Image 2026-10-17 at 3.29.43 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CLOUDY GRAY/WhatsApp Image 2026-10-17 at 3.29.44 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Cloudy Gray shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Cloudy Gray", hex: "#94a3b8" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-crystal-n",
+    name: "Bella Elite — Crystal N",
+    sku: "BL-ELT-04",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CRYSTAL N/WhatsApp Image 2026-10-17 at 3.46.09 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CRYSTAL N/WhatsApp Image 2026-10-17 at 3.46.09 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/CRYSTAL N/WhatsApp Image 2026-10-17 at 3.46.10 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Crystal N shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Crystal N", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-emerald-green",
+    name: "Bella Elite — Emerald Green",
+    sku: "BL-ELT-05",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/EMERALD GREEN/WhatsApp Image 2026-10-17 at 3.43.26 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/EMERALD GREEN/WhatsApp Image 2026-10-17 at 3.43.26 PM (2).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/EMERALD GREEN/WhatsApp Image 2026-10-17 at 3.43.26 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Emerald Green shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Emerald Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-gray-olive",
+    name: "Bella Elite — Gray Olive",
+    sku: "BL-ELT-06",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GRAY OLIVE/WhatsApp Image 2026-10-17 at 3.35.51 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GRAY OLIVE/WhatsApp Image 2026-10-17 at 3.35.50 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GRAY OLIVE/WhatsApp Image 2026-10-17 at 3.35.51 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Gray Olive shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Gray Olive", hex: "#4d7c0f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-green-olive",
+    name: "Bella Elite — Green Olive",
+    sku: "BL-ELT-07",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GREEN OLIVE/WhatsApp Image 2026-10-17 at 4.00.22 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GREEN OLIVE/WhatsApp Image 2026-10-17 at 4.00.21 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GREEN OLIVE/WhatsApp Image 2026-10-17 at 4.00.22 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Green Olive shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Green Olive", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-grey-beige",
+    name: "Bella Elite — Grey Beige",
+    sku: "BL-ELT-08",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GREY BEIGE/WhatsApp Image 2026-10-17 at 3.34.53 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GREY BEIGE/WhatsApp Image 2026-10-17 at 3.34.53 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/GREY BEIGE/WhatsApp Image 2026-10-17 at 3.34.54 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Grey Beige shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Grey Beige", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-lavender-gray",
+    name: "Bella Elite — Lavender Gray",
+    sku: "BL-ELT-09",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/LAVENDER GRAY/WhatsApp Image 2026-10-17 at 3.32.01 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/LAVENDER GRAY/WhatsApp Image 2026-10-17 at 3.32.01 PM (2).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/LAVENDER GRAY/WhatsApp Image 2026-10-17 at 3.32.01 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Lavender Gray shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Lavender Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-matt-olive",
+    name: "Bella Elite — Matt Olive",
+    sku: "BL-ELT-10",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MATT OLIVE/WhatsApp Image 2026-10-17 at 3.41.07 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MATT OLIVE/WhatsApp Image 2026-10-17 at 3.41.07 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MATT OLIVE/WhatsApp Image 2026-10-17 at 3.41.08 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Matt Olive shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Matt Olive", hex: "#4d7c0f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-midnight-blue",
+    name: "Bella Elite — Midnight Blue",
+    sku: "BL-ELT-11",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MIDNIGHT BLUE/WhatsApp Image 2026-10-17 at 3.33.17 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MIDNIGHT BLUE/WhatsApp Image 2026-10-17 at 3.33.17 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MIDNIGHT BLUE/WhatsApp Image 2026-10-17 at 3.33.18 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Midnight Blue shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Blue",
+    availableColors: [
+      { name: "Midnight Blue", hex: "#0284c7" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-mint-gray",
+    name: "Bella Elite — Mint Gray",
+    sku: "BL-ELT-12",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MINT GRAY/WhatsApp Image 2026-10-17 at 3.37.13 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MINT GRAY/WhatsApp Image 2026-10-17 at 3.37.13 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/MINT GRAY/WhatsApp Image 2026-10-17 at 3.37.14 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Mint Gray shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Mint Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-sandy-brown",
+    name: "Bella Elite — Sandy Brown",
+    sku: "BL-ELT-13",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SANDY BROWN/WhatsApp Image 2026-10-17 at 3.58.05 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SANDY BROWN/WhatsApp Image 2026-10-17 at 3.58.04 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SANDY BROWN/WhatsApp Image 2026-10-17 at 3.58.05 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Sandy Brown shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Sandy Brown", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-sandy-gray",
+    name: "Bella Elite — Sandy Gray",
+    sku: "BL-ELT-14",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SANDY GRAY/WhatsApp Image 2026-10-17 at 3.57.09 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SANDY GRAY/WhatsApp Image 2026-10-17 at 3.57.09 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SANDY GRAY/WhatsApp Image 2026-10-17 at 3.57.10 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Sandy Gray shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Sandy Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-silky-gold",
+    name: "Bella Elite — Silky Gold",
+    sku: "BL-ELT-15",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GOLD/WhatsApp Image 2026-10-17 at 3.40.37 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GOLD/WhatsApp Image 2026-10-17 at 3.40.37 PM (2).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GOLD/WhatsApp Image 2026-10-17 at 3.40.37 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Silky Gold shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Silky Gold", hex: "#d97706" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-silky-gray",
+    name: "Bella Elite — Silky Gray",
+    sku: "BL-ELT-16",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GRAY/WhatsApp Image 2026-10-17 at 3.55.44 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GRAY/WhatsApp Image 2026-10-17 at 3.55.44 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GRAY/WhatsApp Image 2026-10-17 at 3.55.45 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Silky Gray shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Silky Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-silky-green",
+    name: "Bella Elite — Silky Green",
+    sku: "BL-ELT-17",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GREEN/WhatsApp Image 2026-10-17 at 3.39.13 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GREEN/WhatsApp Image 2026-10-17 at 3.39.13 PM (2).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/SILKY GREEN/WhatsApp Image 2026-10-17 at 3.39.13 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Silky Green shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Silky Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-elt-wild-honey",
+    name: "Bella Elite — Wild Honey",
+    sku: "BL-ELT-18",
+    category: 'color-contacts',
+    subCategory: "Bella Elite Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 5450,
+    originalPrice: 6800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/WILD HONEY/WhatsApp Image 2026-10-17 at 3.59.18 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/WILD HONEY/WhatsApp Image 2026-10-17 at 3.59.18 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA ELLITE rs 5450/WILD HONEY/WhatsApp Image 2026-10-17 at 3.59.19 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Wild Honey shade from the Bella Elite Collection. Celebrity-favorite subtle multi-tone color gradation with a delicate limbal ring. Ultra-natural iris enlargement engineered for formal galas, weddings, and premium everyday wear.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Wild Honey", hex: "#d97706" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-gray-caramel",
+    name: "Bella Glow — Gray Caramel",
+    sku: "BL-GLW-01",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/GRAY CARAMEL/WhatsApp Image 2026-10-17 at 4.29.54 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/GRAY CARAMEL/WhatsApp Image 2026-10-17 at 4.29.54 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Gray Caramel shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Gray Caramel", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-husky-gray-green",
+    name: "Bella Glow — Husky Gray Green",
+    sku: "BL-GLW-02",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/HUSKY GRAY GREEN/WhatsApp Image 2026-10-17 at 4.25.18 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/HUSKY GRAY GREEN/WhatsApp Image 2026-10-17 at 4.25.18 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Husky Gray Green shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Husky Gray Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-lime-green",
+    name: "Bella Glow — Lime Green",
+    sku: "BL-GLW-03",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/LIME GREEN/WhatsApp Image 2026-10-17 at 4.31.33 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/LIME GREEN/WhatsApp Image 2026-10-17 at 4.31.34 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Lime Green shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Lime Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-luminous-pearl",
+    name: "Bella Glow — Luminous Pearl",
+    sku: "BL-GLW-04",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/LUMINOUS PEARL/WhatsApp Image 2026-10-17 at 4.30.48 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/LUMINOUS PEARL/WhatsApp Image 2026-10-17 at 4.30.48 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Luminous Pearl shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Luminous Pearl", hex: "#94a3b8" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-navy-gray",
+    name: "Bella Glow — Navy Gray",
+    sku: "BL-GLW-05",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/NAVY GRAY/WhatsApp Image 2026-10-17 at 4.33.14 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/NAVY GRAY/WhatsApp Image 2026-10-17 at 4.33.15 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Navy Gray shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Navy Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-radiant-brown",
+    name: "Bella Glow — Radiant Brown",
+    sku: "BL-GLW-06",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/RADIANT BROWN/WhatsApp Image 2026-10-17 at 4.28.03 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/RADIANT BROWN/WhatsApp Image 2026-10-17 at 4.28.02 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/RADIANT BROWN/WhatsApp Image 2026-10-17 at 4.28.03 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Radiant Brown shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Radiant Brown", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-radiant-gray",
+    name: "Bella Glow — Radiant Gray",
+    sku: "BL-GLW-07",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/RADIANT GRAY/WhatsApp Image 2026-10-17 at 4.34.28 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/RADIANT GRAY/WhatsApp Image 2026-10-17 at 4.34.28 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Radiant Gray shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Radiant Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-radiant-hazelnut",
+    name: "Bella Glow — Radiant Hazelnut",
+    sku: "BL-GLW-08",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/RADIANT HAZELNUT/WhatsApp Image 2026-10-17 at 4.28.59 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/RADIANT HAZELNUT/WhatsApp Image 2026-10-17 at 4.29.00 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Radiant Hazelnut shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Radiant Hazelnut", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-glw-vivid-blue",
+    name: "Bella Glow — Vivid Blue",
+    sku: "BL-GLW-09",
+    category: 'color-contacts',
+    subCategory: "Bella Glow Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/VIVID BLUE/WhatsApp Image 2026-10-17 at 4.32.35 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/VIVID BLUE/WhatsApp Image 2026-10-17 at 4.32.34 PM.jpeg",
+      "/eyeglassimages/color contact lenses/BELLA GLOW RS 4800/VIVID BLUE/WhatsApp Image 2026-10-17 at 4.32.35 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Vivid Blue shade from the Bella Glow Collection. High-impact radiant colors with soft limbal contour. Instantly illuminates facial expressions with vivid, glowing iris tones that catch ambient light flawlessly.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Blue",
+    availableColors: [
+      { name: "Vivid Blue", hex: "#0284c7" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-nat-cool-gray",
+    name: "Bella Natural — Cool Gray",
+    sku: "BL-NAT-01",
+    category: 'color-contacts',
+    subCategory: "Bella Natural Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/COOL GRAY/WhatsApp Image 2026-10-17 at 4.48.48 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/COOL GRAY/WhatsApp Image 2026-10-17 at 4.48.48 PM.jpeg",
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/COOL GRAY/WhatsApp Image 2026-10-17 at 4.48.49 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Cool Gray shade from the Bella Natural Collection. Two-tone natural pigment blending that integrates seamlessly with your eye depth. Soft contrast outer ring creates effortless, natural sophistication.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Cool Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-nat-cool-hazel",
+    name: "Bella Natural — Cool Hazel",
+    sku: "BL-NAT-02",
+    category: 'color-contacts',
+    subCategory: "Bella Natural Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/COOL HAZEL/WhatsApp Image 2026-10-17 at 4.49.56 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/COOL HAZEL/WhatsApp Image 2026-10-17 at 4.49.56 PM (2).jpeg",
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/COOL HAZEL/WhatsApp Image 2026-10-17 at 4.49.56 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Cool Hazel shade from the Bella Natural Collection. Two-tone natural pigment blending that integrates seamlessly with your eye depth. Soft contrast outer ring creates effortless, natural sophistication.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Cool Hazel", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-nat-natural-gray",
+    name: "Bella Natural — Natural Gray",
+    sku: "BL-NAT-03",
+    category: 'color-contacts',
+    subCategory: "Bella Natural Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/NATURAL GRAY/WhatsApp Image 2026-10-17 at 4.43.08 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/NATURAL GRAY/WhatsApp Image 2026-10-17 at 4.43.08 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Natural Gray shade from the Bella Natural Collection. Two-tone natural pigment blending that integrates seamlessly with your eye depth. Soft contrast outer ring creates effortless, natural sophistication.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Natural Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "bl-nat-viola-gray",
+    name: "Bella Natural — Viola Gray",
+    sku: "BL-NAT-04",
+    category: 'color-contacts',
+    subCategory: "Bella Natural Collection",
+    gender: 'unisex',
+    brand: "Bella",
+    price: 4800,
+    originalPrice: 6000,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/VIOLA GRAY/WhatsApp Image 2026-10-17 at 4.47.12 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/VIOLA GRAY/WhatsApp Image 2026-10-17 at 4.47.11 PM.jpeg",
+      "/eyeglassimages/color contact lenses/Bella Natural Coloured Contact Lenses rs 4800/VIOLA GRAY/WhatsApp Image 2026-10-17 at 4.47.12 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Viola Gray shade from the Bella Natural Collection. Two-tone natural pigment blending that integrates seamlessly with your eye depth. Soft contrast outer ring creates effortless, natural sophistication.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (38%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Designed in Lebanon / UAE",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Viola Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-amber-grey",
+    name: "Optiano Glamorous — Amber Grey",
+    sku: "OPT-GLM-01",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/AMBER GREY/WhatsApp Image 2026-10-17 at 5.22.23 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/AMBER GREY/WhatsApp Image 2026-10-17 at 5.22.23 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Amber Grey shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Amber Grey", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-emerald-green",
+    name: "Optiano Glamorous — Emerald Green",
+    sku: "OPT-GLM-02",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/EMERALD GREEN/WhatsApp Image 2026-10-17 at 5.28.17 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/EMERALD GREEN/WhatsApp Image 2026-10-17 at 5.28.17 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Emerald Green shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Emerald Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-honey",
+    name: "Optiano Glamorous — Honey",
+    sku: "OPT-GLM-03",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/HONEY/WhatsApp Image 2026-10-17 at 5.24.09 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/HONEY/WhatsApp Image 2026-10-17 at 5.24.09 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Honey shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Honey", hex: "#d97706" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-ice-blue",
+    name: "Optiano Glamorous — Ice Blue",
+    sku: "OPT-GLM-04",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/ICE BLUE/m.jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/ICE BLUE/WhatsApp Image 2026-10-17 at 5.27.42 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Ice Blue shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Blue",
+    availableColors: [
+      { name: "Ice Blue", hex: "#0284c7" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-pearl-grey",
+    name: "Optiano Glamorous — Pearl Grey",
+    sku: "OPT-GLM-05",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/PEARL GREY/WhatsApp Image 2026-10-17 at 5.26.40 PM.jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/PEARL GREY/WhatsApp Image 2026-10-17 at 5.26.41 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Pearl Grey shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Pearl Grey", hex: "#94a3b8" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-sea-green",
+    name: "Optiano Glamorous — Sea Green",
+    sku: "OPT-GLM-06",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/SEA GREEN/WhatsApp Image 2026-10-17 at 5.24.49 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/SEA GREEN/WhatsApp Image 2026-10-17 at 5.24.49 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Sea Green shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Sea Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-topaz",
+    name: "Optiano Glamorous — Topaz",
+    sku: "OPT-GLM-07",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/TOPAZ/WhatsApp Image 2026-10-17 at 5.25.45 PM.jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/TOPAZ/WhatsApp Image 2026-10-17 at 5.25.46 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Topaz shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Blue",
+    availableColors: [
+      { name: "Topaz", hex: "#0284c7" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-glm-white-rose",
+    name: "Optiano Glamorous — White Rose",
+    sku: "OPT-GLM-08",
+    category: 'color-contacts',
+    subCategory: "Optiano Glamorous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3450,
+    originalPrice: 4400,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/WHITE ROSE/WhatsApp Image 2026-10-17 at 5.29.56 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO Glamorous Collection HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED , RS 3450/WHITE ROSE/WhatsApp Image 2026-10-17 at 5.29.56 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "White Rose shade from the Optiano Glamorous Collection. Striking Korean high-definition iris design with radiant color payoff. Manufactured in South Korea with international medical CE & ISO certifications for breathable ocular comfort.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "White Rose", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-gor-warm-gray",
+    name: "Optiano Gorgeous — Warm Gray",
+    sku: "OPT-GOR-01",
+    category: 'color-contacts',
+    subCategory: "Optiano Gorgeous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3850,
+    originalPrice: 4800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO GORGEOUS COLLECTION rs 3850/WARM GRAY/WhatsApp Image 2026-10-17 at 10.44.29 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO GORGEOUS COLLECTION rs 3850/WARM GRAY/WhatsApp Image 2026-10-17 at 10.44.29 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Warm Gray shade from the Optiano Gorgeous Collection. Premium Korean cosmetic lenses featuring rich gradient transitions and soft contouring. Globally safety approved with medical-grade Korean hydrogel for long-lasting hydration.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Warm Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-gor-warm-hazel",
+    name: "Optiano Gorgeous — Warm Hazel",
+    sku: "OPT-GOR-02",
+    category: 'color-contacts',
+    subCategory: "Optiano Gorgeous Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3850,
+    originalPrice: 4800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO GORGEOUS COLLECTION rs 3850/WARM HAZEL/WhatsApp Image 2026-10-17 at 10.43.38 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO GORGEOUS COLLECTION rs 3850/WARM HAZEL/WhatsApp Image 2026-10-17 at 10.43.38 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Warm Hazel shade from the Optiano Gorgeous Collection. Premium Korean cosmetic lenses featuring rich gradient transitions and soft contouring. Globally safety approved with medical-grade Korean hydrogel for long-lasting hydration.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.5 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Warm Hazel", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-aqua",
+    name: "Optiano Classic — Aqua",
+    sku: "OPT-CLS-01",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/AQUA/WhatsApp Image 2026-10-17 at 5.15.01 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/AQUA/WhatsApp Image 2026-10-17 at 5.15.01 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Aqua shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Blue",
+    availableColors: [
+      { name: "Aqua", hex: "#0284c7" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-brown",
+    name: "Optiano Classic — Brown",
+    sku: "OPT-CLS-02",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/BROWN/WhatsApp Image 2026-10-17 at 5.06.44 PM.jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/BROWN/WhatsApp Image 2026-10-17 at 5.06.45 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Brown shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Brown", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-cloud",
+    name: "Optiano Classic — Cloud",
+    sku: "OPT-CLS-03",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/CLOUD/WhatsApp Image 2026-10-17 at 5.04.58 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/CLOUD/WhatsApp Image 2026-10-17 at 5.04.58 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Cloud shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Cloud", hex: "#94a3b8" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-cool-gray",
+    name: "Optiano Classic — Cool Gray",
+    sku: "OPT-CLS-04",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/COOL GRAY/WhatsApp Image 2026-10-17 at 5.03.23 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/COOL GRAY/WhatsApp Image 2026-10-17 at 5.03.23 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Cool Gray shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Cool Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-dark-gray",
+    name: "Optiano Classic — Dark Gray",
+    sku: "OPT-CLS-05",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/DARK GRAY/WhatsApp Image 2026-10-17 at 5.01.21 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/DARK GRAY/WhatsApp Image 2026-10-17 at 5.01.21 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Dark Gray shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Dark Gray", hex: "#475569" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-enchant-brown",
+    name: "Optiano Classic — Enchant Brown",
+    sku: "OPT-CLS-06",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/ENCHANT BROWN/WhatsApp Image 2026-10-17 at 5.08.30 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/ENCHANT BROWN/WhatsApp Image 2026-10-17 at 5.08.30 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Enchant Brown shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Enchant Brown", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-enchant-gray",
+    name: "Optiano Classic — Enchant Gray",
+    sku: "OPT-CLS-07",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/ENCHANT GRAY/WhatsApp Image 2026-10-17 at 5.05.48 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/ENCHANT GRAY/WhatsApp Image 2026-10-17 at 5.05.48 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Enchant Gray shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Enchant Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-green",
+    name: "Optiano Classic — Green",
+    sku: "OPT-CLS-08",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/GREEN/WhatsApp Image 2026-10-17 at 5.13.42 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/GREEN/WhatsApp Image 2026-10-17 at 5.13.42 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Green shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-hazel",
+    name: "Optiano Classic — Hazel",
+    sku: "OPT-CLS-09",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/HAZEL/WhatsApp Image 2026-10-17 at 5.07.12 PM.jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/HAZEL/WhatsApp Image 2026-10-17 at 5.07.13 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Hazel shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Hazel", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-pure-hazel",
+    name: "Optiano Classic — Pure Hazel",
+    sku: "OPT-CLS-10",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/PURE HAZEL/WhatsApp Image 2026-10-17 at 5.07.48 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/PURE HAZEL/WhatsApp Image 2026-10-17 at 5.07.48 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Pure Hazel shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Pure Hazel", hex: "#a16207" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-sepia",
+    name: "Optiano Classic — Sepia",
+    sku: "OPT-CLS-11",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SEPIA/WhatsApp Image 2026-10-17 at 5.09.09 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SEPIA/WhatsApp Image 2026-10-17 at 5.09.09 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Sepia shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Hazel",
+    availableColors: [
+      { name: "Sepia", hex: "#78350f" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-spark-gray",
+    name: "Optiano Classic — Spark Gray",
+    sku: "OPT-CLS-12",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SPARK GRAY/WhatsApp Image 2026-10-17 at 5.04.15 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SPARK GRAY/WhatsApp Image 2026-10-17 at 5.04.15 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Spark Gray shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Grey",
+    availableColors: [
+      { name: "Spark Gray", hex: "#64748b" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-spark-green",
+    name: "Optiano Classic — Spark Green",
+    sku: "OPT-CLS-13",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SPARK GREEN/WhatsApp Image 2026-10-17 at 5.14.28 PM.jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SPARK GREEN/WhatsApp Image 2026-10-17 at 5.14.29 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Spark Green shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Green",
+    availableColors: [
+      { name: "Spark Green", hex: "#15803d" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-spark-turquoise",
+    name: "Optiano Classic — Spark Turquoise",
+    sku: "OPT-CLS-14",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SPARK TURQUOISE/WhatsApp Image 2026-10-17 at 5.16.25 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/SPARK TURQUOISE/WhatsApp Image 2026-10-17 at 5.16.25 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Spark Turquoise shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Blue",
+    availableColors: [
+      { name: "Spark Turquoise", hex: "#0284c7" }
+    ],
+    reviews: []
+  },
+  {
+    id: "opt-cls-violet",
+    name: "Optiano Classic — Violet",
+    sku: "OPT-CLS-15",
+    category: 'color-contacts',
+    subCategory: "Optiano Classic Collection",
+    gender: 'unisex',
+    brand: "Optiano",
+    price: 3000,
+    originalPrice: 3800,
+    rating: 0,
+    reviewCount: 0,
+    images: [
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/VIOLET/WhatsApp Image 2026-10-17 at 5.15.50 PM (1).jpeg",
+      "/eyeglassimages/color contact lenses/OPTIANO HIGH QUALITY LENSES MADE IN KOREA , GLOBALLY SAFETY APPROVED RS 3000/VIOLET/WhatsApp Image 2026-10-17 at 5.15.50 PM.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-wear.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-remove.jpeg",
+      "/eyeglassimages/contact-lens-guides/guide-how-to-clean.jpeg"
+    ],
+    description: "Violet shade from the Optiano Classic Collection. High-quality Korean color contact lenses. Vivid, reliable color payoff with smooth tear-layer hydration, certified safe for sensitive eyes with international medical approvals.",
+    features: [
+      "Quarterly 3-Month comfortable wear cycle",
+      "High moisture retention (40%) hydrophilic hydrogel",
+      "Base Curve: 8.6 mm | Diameter: 14.2 mm",
+      "Made in South Korea — Globally Safety Approved (CE, ISO, KFDA)",
+      "Includes Federal Optical sterile lens case & guide instructions"
+    ],
+    inStock: true,
+    disposability: 'three-month',
+    lensColor: "Violet",
+    availableColors: [
+      { name: "Violet", hex: "#7c3aed" }
+    ],
+    reviews: []
+  }
