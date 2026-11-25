@@ -182,7 +182,7 @@ export const CategoryPage: React.FC = () => {
               {getCategoryTitle()}
             </h1>
             <p className="text-stone-600 text-xs sm:text-sm mt-1">
-              Showing {filteredProducts.length} certified optical models. Hand-adjusted and clinic-verified before dispatch.
+              Showing {filteredProducts.length} {filteredProducts.length === 1 ? 'product' : 'products'}.
             </p>
           </div>
 

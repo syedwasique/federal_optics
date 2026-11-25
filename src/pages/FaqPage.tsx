@@ -94,7 +94,7 @@ const FAQS: FaqItem[] = [
     category: 'Clinic & Eye Tests',
     question: 'Do I need an appointment for an eye test in your Karachi store?',
     answer:
-      'Walk-ins are always welcome during operating hours (Mon–Sat: 11:00 AM – 9:30 PM). However, to avoid waiting during peak afternoon/evening hours, you can reserve a 20-minute computerized refraction slot through our Federal Care page or WhatsApp.'
+      'Walk-ins are welcome during eye clinic timings (Mon–Sat: 5:30 PM – 10:30 PM, Sunday: 2:00 PM – 4:00 PM). To avoid waiting at busy times, you can reserve a 20-minute computerized refraction slot through our Federal Care page or WhatsApp.'
   },
   {
     category: 'Clinic & Eye Tests',

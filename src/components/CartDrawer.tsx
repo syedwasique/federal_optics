@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useSyncExternalStore } from 'react';
 import { useCart } from '../context/CartContext';
-import { X, Trash2, Plus, Minus, ShoppingBag, ArrowRight, ShieldCheck } from 'lucide-react';
+import { X, Trash2, Plus, Minus, ShoppingBag, ArrowRight, ShieldCheck, FileImage } from 'lucide-react';
+import { describePowerShort } from '../utils/powerFormat';
+import { AdvancePaymentNotice } from './AdvancePaymentNotice';
+import { getCard, getCardsVersion, subscribeCards } from '../utils/prescriptionCards';
 
 export const CartDrawer: React.FC = () => {
+  // re-render when a prescription photo is added or wiped
+  useSyncExternalStore(subscribeCards, getCardsVersion);
   const {
     cart,
     isCartOpen,
@@ -120,17 +125,25 @@ export const CartDrawer: React.FC = () => {
                           </div>
                         )}
                         {item.powerSelection && (
-                          <div className="inline-block mt-1 px-2 py-0.5 rounded bg-sky-50 text-sky-800 border border-sky-200 text-[10px] font-medium">
-                            {item.powerSelection.hasPower ? (
-                              <span>
-                                OD: {item.powerSelection.rightEyePower || '0.00'} | OS: {item.powerSelection.leftEyePower || '0.00'}
-                                {item.powerSelection.cylinder ? ` (Cyl ${item.powerSelection.cylinder})` : ''}
-                              </span>
-                            ) : (
-                              <span>Plano (0.00 Cosmetic)</span>
-                            )}
+                          <div className="inline-block mt-1 mr-1 px-2 py-0.5 rounded bg-sky-50 text-sky-800 border border-sky-200 text-[10px] font-medium">
+                            {describePowerShort(item.powerSelection)}
                           </div>
                         )}
+                        {item.prescriptionCard && (() => {
+                          const card = getCard(item.prescriptionCard.id);
+                          return (
+                            <div className="mt-1.5 flex items-center gap-2 text-[10px]">
+                              {card ? (
+                                <img src={card.url} alt="Prescription card" className="w-8 h-8 rounded object-cover border border-[#E8E3D8]" />
+                              ) : (
+                                <span className="flex w-8 h-8 items-center justify-center rounded bg-[#F3EFE8] text-[#8C7048]"><FileImage className="w-4 h-4" /></span>
+                              )}
+                              <span className="text-stone-600">
+                                {card ? 'Prescription card attached' : 'Prescription card: please send the photo in the WhatsApp chat'}
+                              </span>
+                            </div>
+                          );
+                        })()}
                         {item.selectedLens && (
                           <div className={`inline-block mt-1 px-2 py-0.5 rounded text-[10px] font-medium ${
                             item.selectedLens.id === 'custom-tech-whatsapp'
@@ -192,9 +205,7 @@ export const CartDrawer: React.FC = () => {
                   Rs. {subtotal.toLocaleString()}
                 </span>
               </div>
-              <p className="text-[11px] text-stone-500">
-                Taxes & clinic verification included. Orders are aggregated and dispatched directly to Federal Optical customer desk via WhatsApp.
-              </p>
+              <AdvancePaymentNotice total={subtotal} />
 
               <button
                 onClick={() => {

@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { getProductById, PRODUCTS, LENS_PACKAGE_OPTIONS } from '../data/products';
+import { getProductById, PRODUCTS, LENS_PACKAGE_OPTIONS, takesLensPackage } from '../data/products';
 import type { LensPackageOption, ProductPackOption } from '../data/products';
 import { useCart, FEDERAL_OPTICAL_PHONE } from '../context/CartContext';
 import type { ContactLensPowerSelection } from '../context/CartContext';
 import { useNavigation } from '../context/NavigationContext';
 import { ProductCard } from '../components/ProductCard';
+import { GlassesPowerCard, DEFAULT_GLASSES_RX, glassesRxToSelection } from '../components/GlassesPowerCard';
+import type { GlassesRx } from '../components/GlassesPowerCard';
+import { PrescriptionCardUpload } from '../components/PrescriptionCardUpload';
+import type { PrescriptionCardRef } from '../utils/prescriptionCards';
 import { SEO, getProductSchema, getBreadcrumbSchema } from '../components/SEO';
+import { ProductImageZoomModal } from '../components/ProductImageZoomModal';
 import {
   ShieldCheck,
   Truck,
@@ -18,7 +23,8 @@ import {
   Ruler,
   Eye,
   CheckCircle2,
-  Sparkles
+  Sparkles,
+  ZoomIn
 } from 'lucide-react';
 
 // Standard contact lens optical powers:
@@ -65,6 +71,7 @@ export const ProductDetailPage: React.FC = () => {
   const initialColor = params.color || matchedVariantByUrl?.name || product.availableColors[0]?.name || 'Standard';
 
   const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [isZoomModalOpen, setIsZoomModalOpen] = useState(false);
   const [selectedColor, setSelectedColor] = useState<string>(initialColor);
   const [selectedLens, setSelectedLens] = useState<LensPackageOption>(
     LENS_PACKAGE_OPTIONS[0]
@@ -87,6 +94,11 @@ export const ProductDetailPage: React.FC = () => {
   const [toricAxis, setToricAxis] = useState<string>('180°');
   const [customRxNotes, setCustomRxNotes] = useState<string>('');
 
+  // Eyeglasses / sunglasses power card + optional prescription card photo
+  const isGlasses = product.category === 'eyeglasses' || product.category === 'sunglasses' || product.category === 'tint-eyeglasses';
+  const [glassesRx, setGlassesRx] = useState<GlassesRx>(DEFAULT_GLASSES_RX);
+  const [rxCard, setRxCard] = useState<PrescriptionCardRef | null>(null);
+
   // Reset variant states when switching product
   useEffect(() => {
     const matched = product.availableColors?.find(c => 
@@ -103,6 +115,8 @@ export const ProductDetailPage: React.FC = () => {
     setRightPower('-2.00');
     setLeftPower('-2.00');
     setCustomRxNotes('');
+    setGlassesRx(DEFAULT_GLASSES_RX);
+    setRxCard(null);
   }, [product.id, params.productId, params.color, product.category, product.packOptions]);
 
   // Active color variant & active gallery images (loads all angles specific to the selected color)
@@ -120,8 +134,11 @@ export const ProductDetailPage: React.FC = () => {
   };
 
   // Construct active power selection object
-  const powerSelection: ContactLensPowerSelection | undefined = isContactLens
+  const powerSelection: ContactLensPowerSelection | undefined = isGlasses
+    ? glassesRxToSelection(glassesRx)
+    : isContactLens
     ? {
+        kind: 'contacts',
         hasPower,
         rightEyePower: hasPower ? rightPower : '0.00',
         leftEyePower: hasPower ? (samePower ? rightPower : leftPower) : '0.00',
@@ -134,9 +151,9 @@ export const ProductDetailPage: React.FC = () => {
 
   // Calculate pricing based on selected pack option if present
   const basePrice = selectedPack ? selectedPack.price : product.price;
-  const lensPrice = product.category === 'eyeglasses' || product.category === 'tint-eyeglasses'
-    ? selectedLens.price
-    : 0;
+  // Lens technology (blue cut etc.) is only offered on eyeglasses & tints, never on sunglasses or contacts
+  const lensForOrder = takesLensPackage(product) ? selectedLens : undefined;
+  const lensPrice = lensForOrder ? lensForOrder.price : 0;
   const totalPrice = (basePrice + lensPrice) * quantity;
 
   // Related products
@@ -145,13 +162,13 @@ export const ProductDetailPage: React.FC = () => {
   ).slice(0, 4);
 
   const handleAddToCart = () => {
-    addToCart(product, selectedColor, selectedLens, quantity, selectedPack, powerSelection);
+    addToCart(product, selectedColor, lensForOrder, quantity, selectedPack, powerSelection, rxCard ?? undefined);
     setAddedAnimation(true);
     setTimeout(() => setAddedAnimation(false), 2000);
   };
 
   const handleQuickWhatsApp = () => {
-    triggerQuickOrder(product, selectedColor, selectedLens, selectedPack, powerSelection);
+    triggerQuickOrder(product, selectedColor, lensForOrder, selectedPack, powerSelection, rxCard ?? undefined, quantity);
   };
 
   return (
@@ -193,15 +210,34 @@ export const ProductDetailPage: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14">
         {/* LEFT: Image Gallery (Sticky on desktop) */}
         <div className="lg:col-span-7 space-y-4">
-          {/* Main Large Image Stage */}
-          <div className="relative aspect-4/3 sm:aspect-16/11 w-full bg-white rounded-3xl overflow-hidden border border-[#E8E3D8] shadow-sm flex items-center justify-center p-4 sm:p-8">
+          {/* Main Large Image Stage (Interactive Zoom & Drag Inspection) */}
+          <div
+            onClick={() => setIsZoomModalOpen(true)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={e => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                setIsZoomModalOpen(true);
+              }
+            }}
+            aria-label="Click to open interactive zoom and inspect fine details"
+            className="group relative aspect-4/3 sm:aspect-16/11 w-full bg-white rounded-3xl overflow-hidden border border-[#E8E3D8] hover:border-[#C5A880]/80 shadow-sm hover:shadow-md flex items-center justify-center p-4 sm:p-8 cursor-zoom-in transition-all duration-300"
+          >
+            {/* Top-Right Tap/Click to Zoom Badge */}
+            <div className="absolute top-3.5 right-3.5 sm:top-4 sm:right-4 z-10 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-stone-900/80 group-hover:bg-stone-900 text-white text-xs font-medium shadow-md backdrop-blur-xs transition-all duration-200 group-hover:scale-105 pointer-events-none">
+              <ZoomIn className="w-3.5 h-3.5 text-[#C5A880]" />
+              <span className="hidden sm:inline">Click to Zoom & Inspect</span>
+              <span className="sm:hidden">Tap to Zoom</span>
+            </div>
+
             <img
               src={activeGalleryImages[activeImageIndex] || activeGalleryImages[0]}
               alt={`${product.name} — ${selectedColor}`}
-              className="w-full h-full object-contain transition-all duration-500"
+              className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
             />
             {activeGalleryImages.length > 1 && (
-              <div className="absolute bottom-4 right-4 px-3 py-1 rounded-full bg-stone-900/80 backdrop-blur-xs text-white text-xs font-medium">
+              <div className="absolute bottom-4 right-4 px-3 py-1 rounded-full bg-stone-900/80 backdrop-blur-xs text-white text-xs font-medium pointer-events-none">
                 {(() => {
                   const activeImg = activeGalleryImages[activeImageIndex] || '';
                   if (activeImg.includes('how-to-wear')) return 'Guide: How to Wear';
@@ -290,7 +326,7 @@ export const ProductDetailPage: React.FC = () => {
                 <Ruler className="w-4 h-4 text-[#C5A880]" />
                 <span>Optical Frame Architecture & Measurements</span>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center text-xs pt-1">
+              <div className={`grid ${product.measurements.frameWeight ? 'grid-cols-2 sm:grid-cols-4' : 'grid-cols-3'} gap-2 sm:gap-3 text-center text-xs pt-1`}>
                 <div className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
                   <span className="text-[10px] text-stone-500 block">Lens Width</span>
                   <span className="font-bold text-sm text-stone-900 tabular-nums lining-nums">{product.measurements.lensWidth} mm</span>
@@ -303,10 +339,12 @@ export const ProductDetailPage: React.FC = () => {
                   <span className="text-[10px] text-stone-500 block">Temple Length</span>
                   <span className="font-bold text-sm text-stone-900 tabular-nums lining-nums">{product.measurements.templeLength} mm</span>
                 </div>
-                <div className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
-                  <span className="text-[10px] text-stone-500 block">Total Weight</span>
-                  <span className="font-bold text-sm text-stone-900 tabular-nums lining-nums">{product.measurements.frameWeight}</span>
-                </div>
+                {product.measurements.frameWeight && (
+                  <div className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
+                    <span className="text-[10px] text-stone-500 block">Total Weight</span>
+                    <span className="font-bold text-sm text-stone-900 tabular-nums lining-nums">{product.measurements.frameWeight}</span>
+                  </div>
+                )}
               </div>
               <p className="text-[11px] text-stone-500 text-center">
                 Need customized fitting advice? Message our optometrists on WhatsApp ({FEDERAL_OPTICAL_PHONE}).
@@ -314,8 +352,9 @@ export const ProductDetailPage: React.FC = () => {
             </div>
           )}
 
-          {/* Contact Lens Certified Technical & Ocular Parameters Box */}
-          {(product.category === 'color-contacts' || product.category === 'clear-contacts') && (
+          {/* Contact Lens Technical & Ocular Parameters Box (clear lenses only: the client asked
+              for it to be removed from colour contact lenses) */}
+          {product.category === 'clear-contacts' && (
             <div className="bg-[#FAF8F5] rounded-2xl border border-[#E8E3D8] p-5 space-y-3 mt-6">
               <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-[#8C7048]">
                 <div className="flex items-center gap-2">
@@ -326,32 +365,28 @@ export const ProductDetailPage: React.FC = () => {
                   Safety Approved
                 </span>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center text-xs pt-1">
-                <div className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
-                  <span className="text-[10px] text-stone-500 block">Base Curve</span>
-                  <span className="font-bold text-sm text-stone-900 tabular-nums lining-nums">
-                    {product.lensBaseCurve || '8.6 mm'}
-                  </span>
-                </div>
-                <div className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
-                  <span className="text-[10px] text-stone-500 block">Diameter</span>
-                  <span className="font-bold text-sm text-stone-900 tabular-nums lining-nums">
-                    {product.lensDiameter || (product.brand === 'Optiano' && product.subCategory.includes('Classic') ? '14.2 mm' : '14.5 mm')}
-                  </span>
-                </div>
-                <div className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
-                  <span className="text-[10px] text-stone-500 block">Water Content</span>
-                  <span className="font-bold text-sm text-stone-900 tabular-nums lining-nums">
-                    {product.lensWaterContent || (product.brand === 'Optiano' ? '40%' : '38%')}
-                  </span>
-                </div>
-                <div className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
-                  <span className="text-[10px] text-stone-500 block">Wear Cycle</span>
-                  <span className="font-bold text-sm text-stone-900 capitalize">
-                    {product.disposability ? `${product.disposability.replace('-', ' ')}` : 'Monthly'}
-                  </span>
-                </div>
-              </div>
+              {/* only the specs this lens actually has (no made-up defaults) */}
+              {(() => {
+                const specs = [
+                  { label: 'Base Curve', value: product.lensBaseCurve },
+                  { label: 'Diameter', value: product.lensDiameter },
+                  { label: 'Water Content', value: product.lensWaterContent },
+                  { label: 'Wear Cycle', value: product.disposability?.replace('-', ' '), capitalize: true },
+                ].filter(s => s.value);
+                if (!specs.length) return null;
+                return (
+                  <div className={`grid ${specs.length >= 4 ? 'grid-cols-2 sm:grid-cols-4' : specs.length === 3 ? 'grid-cols-3' : 'grid-cols-2'} gap-3 text-center text-xs pt-1`}>
+                    {specs.map(s => (
+                      <div key={s.label} className="bg-white rounded-xl p-3 border border-[#E8E3D8]">
+                        <span className="text-[10px] text-stone-500 block">{s.label}</span>
+                        <span className={`font-bold text-sm text-stone-900 tabular-nums lining-nums ${s.capitalize ? 'capitalize' : ''}`}>
+                          {s.value}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                );
+              })()}
               {product.lensPowerRange && (
                 <div className="p-3 bg-white rounded-xl border border-[#E8E3D8] text-xs">
                   <span className="text-stone-500 block text-[10px] mb-0.5 uppercase tracking-wider font-semibold">Available Power Range:</span>
@@ -402,9 +437,9 @@ export const ProductDetailPage: React.FC = () => {
                   Rs. {((selectedPack ? selectedPack.price : product.originalPrice) * quantity).toLocaleString()}
                 </span>
               )}
-              {lensPrice > 0 && (
+              {lensForOrder && lensPrice > 0 && (
                 <span className="text-xs text-[#8C7048] font-medium">
-                  (Includes {selectedLens.name})
+                  (Includes {lensForOrder.name})
                 </span>
               )}
               {selectedPack && (
@@ -523,7 +558,7 @@ export const ProductDetailPage: React.FC = () => {
           )}
 
           {/* Lens Packages (for eyeglasses & tints) */}
-          {(product.category === 'eyeglasses' || product.category === 'tint-eyeglasses') && (
+          {takesLensPackage(product) && (
             <div className="space-y-3 pt-2">
               <div className="flex justify-between items-center text-xs">
                 <span className="font-bold text-stone-900 uppercase tracking-wider">
@@ -794,6 +829,16 @@ export const ProductDetailPage: React.FC = () => {
             </div>
           )}
 
+          {/* Eyeglasses & Sunglasses Power Card */}
+          {isGlasses && (
+            <GlassesPowerCard category={product.category} value={glassesRx} onChange={setGlassesRx} />
+          )}
+
+          {/* Upload Your Prescription Card (right after the power card) */}
+          {(isGlasses || isContactLens) && (
+            <PrescriptionCardUpload value={rxCard} onChange={setRxCard} />
+          )}
+
           {/* Features list */}
           {product.features && product.features.length > 0 && (
             <div className="pt-2">
@@ -894,6 +939,18 @@ export const ProductDetailPage: React.FC = () => {
           </div>
         </section>
       )}
+
+      {/* Interactive Image Zoom & Drag Inspection Modal */}
+      <ProductImageZoomModal
+        isOpen={isZoomModalOpen}
+        onClose={() => setIsZoomModalOpen(false)}
+        images={activeGalleryImages}
+        currentIndex={activeImageIndex}
+        onIndexChange={setActiveImageIndex}
+        productName={product.name}
+        selectedColor={selectedColor}
+        category={product.category}
+      />
     </div>
   );
 };

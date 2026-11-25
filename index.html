@@ -23,7 +23,7 @@
          Every animation below uses only transform and opacity, so the browser runs
          it on the GPU and it stays smooth while the app's JavaScript is loading. -->
     <link rel="preload" as="image" href="/assets/logos/loader-emblem-gold.png" />
-    <link rel="preload" as="image" href="/assets/logos/loader-wordmark-white.png" />
+    <link rel="preload" as="image" href="/assets/logos/loader-wordmark-white-tm.png" />
     <style>
       html.fo-loading, html.fo-loading body { overflow: hidden; }
       #fo-loader {
@@ -35,7 +35,9 @@
       #fo-loader.fo-out { transform: translate3d(0, -100%, 0); }
       .fo-stage { position: relative; width: clamp(250px, 64vw, 540px); will-change: transform, opacity; transition: transform 0.9s cubic-bezier(0.76, 0, 0.24, 1), opacity 0.6s ease; }
       #fo-loader.fo-out .fo-stage { transform: translate3d(0, 60px, 0) scale(0.97); opacity: 0; }
-      .fo-logo { display: flex; align-items: center; gap: 3%; }
+      /* the ™ wordmark has 44px of extra canvas above and below the text (955×307 instead of 955×219);
+         the negative margin cancels that growth so the loader layout is exactly as before */
+      .fo-logo { display: flex; align-items: center; gap: 3%; margin: -3.08% 0; }
       .fo-emblem { position: relative; flex: 0 0 25.5%; }
       .fo-emblem img, .fo-word img { display: block; width: 100%; height: auto; }
       .fo-emblem img { position: relative; opacity: 0; transform: scale(0.94, 0.04); transform-origin: 50% 47%; will-change: transform, opacity; }
@@ -51,8 +53,8 @@
       /* gold light: a band that travels across, masked to the letters only */
       .fo-sheen {
         position: absolute; inset: 0; overflow: hidden; pointer-events: none;
-        -webkit-mask: url(/assets/logos/loader-wordmark-white.png) center / 100% 100% no-repeat;
-                mask: url(/assets/logos/loader-wordmark-white.png) center / 100% 100% no-repeat;
+        -webkit-mask: url(/assets/logos/loader-wordmark-white-tm.png) center / 100% 100% no-repeat;
+                mask: url(/assets/logos/loader-wordmark-white-tm.png) center / 100% 100% no-repeat;
       }
       .fo-sheen > i {
         position: absolute; top: 0; bottom: 0; left: 0; width: 38%;
@@ -88,7 +90,7 @@
           <div class="fo-emblem"><span class="fo-glow"></span><img src="/assets/logos/loader-emblem-gold.png" alt="" /></div>
           <div class="fo-word">
             <div class="fo-word-in"><div>
-              <img src="/assets/logos/loader-wordmark-white.png" alt="Federal Optical, Computerized Eye Clinic" />
+              <img src="/assets/logos/loader-wordmark-white-tm.png" alt="Federal Optical, Computerized Eye Clinic" />
               <span class="fo-sheen"><i></i></span>
             </div></div>
           </div>

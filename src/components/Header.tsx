@@ -255,7 +255,7 @@ export const Header: React.FC = () => {
                 className="cursor-pointer flex items-center gap-3 shrink-0 py-1 group"
               >
                 <img
-                  src={isDarkBg ? '/assets/logos/logo_white.png' : '/assets/logos/logo_charcoal.png'}
+                  src={isDarkBg ? '/assets/logos/logo_white_tm.png' : '/assets/logos/logo_charcoal_tm.png'}
                   alt="Federal Optical — Since 1975 Your Family Optician"
                   className="h-10 sm:h-12 w-auto object-contain transition-all duration-300 group-hover:scale-[1.01]"
                 />
@@ -361,7 +361,7 @@ export const Header: React.FC = () => {
               className="cursor-pointer flex items-center gap-2"
             >
               <img
-                src="/assets/logos/logo_charcoal.png"
+                src="/assets/logos/logo_charcoal_tm.png"
                 alt="Federal Optical"
                 className="h-10 sm:h-11 w-auto object-contain"
               />

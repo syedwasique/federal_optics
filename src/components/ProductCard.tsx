@@ -89,7 +89,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
             {product.frameSize || `${product.measurements.lensWidth}mm`}
           </span>
         </div>
-      ) : (product.category === 'color-contacts' || product.category === 'clear-contacts') ? (
+      ) : product.category === 'clear-contacts' ? (
         <div className="absolute top-2 right-2 @[15rem]:top-3 @[15rem]:right-3 z-10">
           <span className="px-2.5 py-0.5 rounded-full bg-[#FAF8F5]/95 backdrop-blur-xs text-[#8C7048] text-[10px] font-semibold border border-[#E8E3D8] shadow-xs">
             {DISPOSABILITY_BADGE[product.disposability ?? ''] ?? 'Contact Lens'}

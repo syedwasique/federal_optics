@@ -1,15 +1,36 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import type { Product, LensPackageOption, ProductPackOption } from '../data/products';
-import { getProductById, LENS_PACKAGE_OPTIONS } from '../data/products';
+import { getProductById, LENS_PACKAGE_OPTIONS, takesLensPackage } from '../data/products';
+import type { PrescriptionCardRef } from '../utils/prescriptionCards';
+import { getCard, removeCard, removeCards } from '../utils/prescriptionCards';
+import { describePowerForWhatsApp } from '../utils/powerFormat';
+import { ADVANCE_PERCENT, advanceOf } from '../utils/advance';
 
+/** Power chosen on the product page: contact lenses or glasses (eyeglasses/sunglasses). */
 export interface ContactLensPowerSelection {
-  hasPower: boolean; // false = plano (cosmetic/zero power)
-  rightEyePower?: string; // OD (e.g. "-2.50")
-  leftEyePower?: string;  // OS (e.g. "-2.50")
-  cylinder?: string;      // Toric CYL (e.g. "-1.25")
-  axis?: string;          // Toric AXIS (e.g. "90°")
+  kind?: 'contacts' | 'glasses';
+  hasPower: boolean; // false = plano / without power
+  rightEyePower?: string; // OD sphere (e.g. "-2.50")
+  leftEyePower?: string;  // OS sphere (e.g. "-2.50")
+  cylinder?: string;      // Toric contacts: CYL for both eyes (e.g. "-1.25")
+  axis?: string;          // Toric contacts: AXIS for both eyes (e.g. "90°")
+  rightCylinder?: string; // Glasses: per-eye CYL / AXIS
+  rightAxis?: string;
+  leftCylinder?: string;
+  leftAxis?: string;
+  add?: string;           // Glasses: near addition (bifocal / progressive)
+  pd?: string;            // Glasses: pupillary distance
   samePower?: boolean;
   prescriptionNotes?: string;
+}
+
+export type { PrescriptionCardRef };
+
+function powerKeyOf(ps?: ContactLensPowerSelection): string {
+  if (!ps) return 'no-power';
+  if (!ps.hasPower) return 'plano';
+  return [ps.kind, ps.rightEyePower, ps.rightCylinder, ps.rightAxis, ps.leftEyePower, ps.leftCylinder, ps.leftAxis,
+    ps.cylinder, ps.axis, ps.add, ps.pd, ps.prescriptionNotes].map(v => v || '0').join('_');
 }
 
 export interface CartItem {
@@ -19,6 +40,9 @@ export interface CartItem {
   selectedLens?: LensPackageOption;
   selectedPack?: ProductPackOption;
   powerSelection?: ContactLensPowerSelection;
+  /** Photo of the customer's prescription card. Only a reference is kept here; the
+   *  image itself stays in memory (utils/prescriptionCards) and is never saved. */
+  prescriptionCard?: PrescriptionCardRef;
   quantity: number;
 }
 
@@ -38,7 +62,8 @@ interface CartContextType {
     selectedLens?: LensPackageOption,
     quantity?: number,
     selectedPack?: ProductPackOption,
-    powerSelection?: ContactLensPowerSelection
+    powerSelection?: ContactLensPowerSelection,
+    prescriptionCard?: PrescriptionCardRef
   ) => void;
   removeFromCart: (itemId: string) => void;
   updateQuantity: (itemId: string, quantity: number) => void;
@@ -57,9 +82,13 @@ interface CartContextType {
     selectedColor: string,
     selectedLens?: LensPackageOption,
     selectedPack?: ProductPackOption,
-    powerSelection?: ContactLensPowerSelection
+    powerSelection?: ContactLensPowerSelection,
+    prescriptionCard?: PrescriptionCardRef,
+    quantity?: number
   ) => void;
   generateWhatsAppUrl: (customer: CustomerOrderInfo, singleItem?: CartItem | null) => string;
+  /** Wipe the prescription photos of these items from memory (after the order is sent). */
+  discardPrescriptionCards: (items: CartItem[]) => void;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -84,7 +113,8 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
         const selectedPack = item.selectedPack
           ? product.packOptions?.find(pk => pk.id === item.selectedPack?.id)
           : undefined;
-        const selectedLens = item.selectedLens
+        // lens packages only apply to optical frames (older saved bags could carry one on sunglasses/contacts)
+        const selectedLens = item.selectedLens && takesLensPackage(product)
           ? LENS_PACKAGE_OPTIONS.find(l => l.id === item.selectedLens?.id) ?? item.selectedLens
           : undefined;
         return [{ ...item, product, selectedPack, selectedLens, quantity: Math.max(1, Number(item.quantity) || 1) }];
@@ -112,14 +142,14 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     selectedLens?: LensPackageOption,
     quantity = 1,
     selectedPack?: ProductPackOption,
-    powerSelection?: ContactLensPowerSelection
+    powerSelection?: ContactLensPowerSelection,
+    prescriptionCard?: PrescriptionCardRef
   ) => {
+    if (!takesLensPackage(product)) selectedLens = undefined;
     const lensKey = selectedLens ? selectedLens.id : 'no-lens';
     const packKey = selectedPack ? selectedPack.id : 'no-pack';
-    const powerKey = powerSelection?.hasPower
-      ? `od_${powerSelection.rightEyePower || '0'}_os_${powerSelection.leftEyePower || '0'}_cyl_${powerSelection.cylinder || '0'}_ax_${powerSelection.axis || '0'}`
-      : (powerSelection ? 'plano' : 'no-power');
-    const itemId = `${product.id}__${selectedColor}__${lensKey}__${packKey}__${powerKey}`;
+    const rxKey = prescriptionCard ? prescriptionCard.id : 'no-card';
+    const itemId = `${product.id}__${selectedColor}__${lensKey}__${packKey}__${powerKeyOf(powerSelection)}__${rxKey}`;
 
     setCart(prev => {
       const existing = prev.find(item => item.id === itemId);
@@ -128,7 +158,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
           item.id === itemId ? { ...item, quantity: item.quantity + quantity } : item
         );
       } else {
-        return [...prev, { id: itemId, product, selectedColor, selectedLens, selectedPack, powerSelection, quantity }];
+        return [...prev, { id: itemId, product, selectedColor, selectedLens, selectedPack, powerSelection, prescriptionCard, quantity }];
       }
     });
 
@@ -136,7 +166,23 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const removeFromCart = (itemId: string) => {
-    setCart(prev => prev.filter(item => item.id !== itemId));
+    setCart(prev => {
+      const gone = prev.find(item => item.id === itemId);
+      const rest = prev.filter(item => item.id !== itemId);
+      // forget its prescription photo unless another item still uses it
+      const cardId = gone?.prescriptionCard?.id;
+      if (cardId && !rest.some(i => i.prescriptionCard?.id === cardId)) removeCard(cardId);
+      return rest;
+    });
+  };
+
+  const discardPrescriptionCards = (items: CartItem[]) => {
+    const ids = items.map(i => i.prescriptionCard?.id).filter(Boolean) as string[];
+    if (!ids.length) return;
+    removeCards(ids);
+    // the photos are wiped; drop their references from the bag too
+    setCart(prev => prev.map(i => (i.prescriptionCard && ids.includes(i.prescriptionCard.id) ? { ...i, prescriptionCard: undefined } : i)));
+    setOrderTargetItem(prev => (prev && prev.prescriptionCard ? { ...prev, prescriptionCard: undefined } : prev));
   };
 
   const updateQuantity = (itemId: string, quantity: number) => {
@@ -150,6 +196,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const clearCart = () => {
+    removeCards(cart.map(i => i.prescriptionCard?.id));
     setCart([]);
   };
 
@@ -171,24 +218,34 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     selectedColor: string,
     selectedLens?: LensPackageOption,
     selectedPack?: ProductPackOption,
-    powerSelection?: ContactLensPowerSelection
+    powerSelection?: ContactLensPowerSelection,
+    prescriptionCard?: PrescriptionCardRef,
+    quantity = 1
   ) => {
+    if (!takesLensPackage(product)) selectedLens = undefined;
     const lensKey = selectedLens ? selectedLens.id : 'no-lens';
     const packKey = selectedPack ? selectedPack.id : 'no-pack';
-    const powerKey = powerSelection?.hasPower
-      ? `od_${powerSelection.rightEyePower || '0'}_os_${powerSelection.leftEyePower || '0'}_cyl_${powerSelection.cylinder || '0'}_ax_${powerSelection.axis || '0'}`
-      : (powerSelection ? 'plano' : 'no-power');
     const tempItem: CartItem = {
-      id: `quick__${product.id}__${selectedColor}__${lensKey}__${packKey}__${powerKey}`,
+      id: `quick__${product.id}__${selectedColor}__${lensKey}__${packKey}__${powerKeyOf(powerSelection)}`,
       product,
       selectedColor,
       selectedLens,
       selectedPack,
       powerSelection,
-      quantity: 1
+      prescriptionCard,
+      quantity: Math.max(1, quantity)
     };
     setOrderTargetItem(tempItem);
     setIsOrderModalOpen(true);
+  };
+
+  /** Link to the exact product (and colour) so the sales team can open what was ordered. */
+  const productLink = (item: CartItem): string => {
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://federaloptical.com';
+    const color = item.product.availableColors.length > 1 && item.selectedColor
+      ? `?color=${encodeURIComponent(item.selectedColor)}`
+      : '';
+    return `${origin}/product/${encodeURIComponent(item.product.id)}${color}`;
   };
 
   const generateWhatsAppUrl = (customer: CustomerOrderInfo, singleItem?: CartItem | null): string => {
@@ -209,18 +266,11 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
         itemsText += `   • Package / Size: *${item.selectedPack.name}*\n`;
       }
       itemsText += `   • Color / Shade: ${item.selectedColor}\n`;
-      if (item.powerSelection) {
-        if (item.powerSelection.hasPower) {
-          itemsText += `   • Prescription Power: Right Eye (OD): *${item.powerSelection.rightEyePower || '0.00'}* | Left Eye (OS): *${item.powerSelection.leftEyePower || '0.00'}*\n`;
-          if (item.powerSelection.cylinder) {
-            itemsText += `   • Astigmatism (Toric): Cyl *${item.powerSelection.cylinder}* | Axis *${item.powerSelection.axis || '180°'}*\n`;
-          }
-          if (item.powerSelection.prescriptionNotes) {
-            itemsText += `   • Rx Notes: ${item.powerSelection.prescriptionNotes}\n`;
-          }
-        } else {
-          itemsText += `   • Power: *Plano (0.00 / Zero Power Cosmetic)*\n`;
-        }
+      itemsText += describePowerForWhatsApp(item.powerSelection);
+      if (item.prescriptionCard) {
+        itemsText += getCard(item.prescriptionCard.id)
+          ? `   • Prescription Card: *📎 Photo attached in this chat*\n`
+          : `   • Prescription Card: *I will send the photo in this chat*\n`;
       }
       if (item.selectedLens) {
         if (item.selectedLens.id === 'custom-tech-whatsapp') {
@@ -229,8 +279,10 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
           itemsText += `   • Lens Technology: ${item.selectedLens.name} (+Rs. ${item.selectedLens.price.toLocaleString()})\n`;
         }
       }
-      itemsText += `   • Qty: ${item.quantity} × Rs. ${unitTotal.toLocaleString()} = *Rs. ${lineTotal.toLocaleString()}*\n\n`;
+      itemsText += `   • Qty: ${item.quantity} × Rs. ${unitTotal.toLocaleString()} = *Rs. ${lineTotal.toLocaleString()}*\n`;
+      itemsText += `   • Product Link: ${productLink(item)}\n\n`;
     });
+    const advance = advanceOf(itemsTotal);
 
     const lines = [
       `👓 *NEW ORDER REQUEST — FEDERAL OPTICAL*`,
@@ -240,8 +292,11 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       itemsText.trim(),
       `---------------------------------------`,
       `*ORDER SUMMARY:*`,
-      `• *Subtotal:* Rs. ${itemsTotal.toLocaleString()}`,
+      `• *Order Total:* Rs. ${itemsTotal.toLocaleString()}`,
+      `• *Advance Payment (${ADVANCE_PERCENT}%):* Rs. ${advance.toLocaleString()}`,
+      `• *Balance on Delivery:* Rs. ${(itemsTotal - advance).toLocaleString()}`,
       `• *Estimated Shipping:* Standard Delivery (Karachi Same/Next Day • Nationwide 2–3 Days • International Express)`,
+      `\n_Please send me the account details for the ${ADVANCE_PERCENT}% advance. I understand my order is confirmed once the advance is received._`,
       `\n*CUSTOMER DETAILS:*`,
       `• *Full Name:* ${customer.name}`,
       `• *WhatsApp/Phone:* ${customer.phone}`,
@@ -250,7 +305,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
       customer.prescriptionNotes ? `• *Prescription / Special Notes:* ${customer.prescriptionNotes}` : null,
       `\n---------------------------------------`,
       `_Order initiated via Federal Optical Digital Catalog (federaloptical.pk)_`,
-      `_Please confirm availability, prescription axis/powers, and payment mode (COD/Bank Transfer)._`
+      `_Please confirm availability and my prescription details._`
     ].filter(Boolean);
 
     const message = lines.join('\n');
@@ -275,7 +330,8 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setOrderTargetItem,
         triggerCheckoutCart,
         triggerQuickOrder,
-        generateWhatsAppUrl
+        generateWhatsAppUrl,
+        discardPrescriptionCards
       }}
     >
       {children}

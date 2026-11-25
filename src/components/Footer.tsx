@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { FEDERAL_OPTICAL_PHONE, FEDERAL_OPTICAL_PHONE_INTL, FEDERAL_OPTICAL_WHATSAPP_NUMBER } from '../context/CartContext';
 import { InstagramIcon } from './Icons';
+import { CLINIC_HOURS, SHOP_HOURS } from '../data/hours';
 import {
   Phone,
   Mail,
@@ -24,7 +25,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/assets/logos/logo_white.png"
+                src="/assets/logos/logo_white_tm.png"
                 alt="Federal Optical — Computerized Eye Clinic"
                 className="h-14 w-auto object-contain"
               />
@@ -225,9 +226,12 @@ export const Footer: React.FC = () => {
                   instagram.com/federaloptical
                 </a>
               </li>
-              <li className="flex items-center gap-2">
-                <Clock className="w-4 h-4 text-[#C5A880] shrink-0" />
-                <span>Mon – Sat: 11:00 AM – 9:30 PM</span>
+              <li className="flex items-start gap-2">
+                <Clock className="w-4 h-4 text-[#C5A880] shrink-0 mt-0.5" />
+                <span>
+                  <span className="block">Shop: {SHOP_HOURS.short}</span>
+                  <span className="block mt-1">Eye Clinic: {CLINIC_HOURS.short}</span>
+                </span>
               </li>
             </ul>
           </div>

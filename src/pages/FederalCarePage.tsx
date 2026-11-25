@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigation } from '../context/NavigationContext';
 import { FEDERAL_OPTICAL_WHATSAPP_NUMBER } from '../context/CartContext';
 import { SEO, getLocalBusinessSchema, getBreadcrumbSchema } from '../components/SEO';
+import { CLINIC_HOURS, CLINIC_SLOTS } from '../data/hours';
 import {
   Calendar,
   CheckCircle2,
@@ -31,7 +32,7 @@ export const FederalCarePage: React.FC = () => {
     name: '',
     phone: '',
     date: '',
-    timeSlot: 'Morning (11:30 AM – 2:00 PM)',
+    timeSlot: CLINIC_SLOTS[0],
     purpose: 'Routine Computerized Refraction Test'
   });
   const [isBooked, setIsBooked] = useState(false);
@@ -229,10 +230,13 @@ export const FederalCarePage: React.FC = () => {
                       onChange={e => setBookingForm({ ...bookingForm, timeSlot: e.target.value })}
                       className="w-full px-3.5 py-2.5 rounded-lg border border-[#E8E3D8] bg-[#FAF8F5]"
                     >
-                      <option value="Morning (11:30 AM – 2:00 PM)">Morning (11:30 AM – 2:00 PM)</option>
-                      <option value="Afternoon (2:00 PM – 5:00 PM)">Afternoon (2:00 PM – 5:00 PM)</option>
-                      <option value="Evening (5:00 PM – 8:30 PM)">Evening (5:00 PM – 8:30 PM)</option>
+                      {CLINIC_SLOTS.map(slot => (
+                        <option key={slot} value={slot}>{slot}</option>
+                      ))}
                     </select>
+                    <p className="mt-1.5 text-[11px] text-stone-500">
+                      Eye clinic timings: {CLINIC_HOURS.weekdays} · {CLINIC_HOURS.sunday}
+                    </p>
                   </div>
 
                   <button

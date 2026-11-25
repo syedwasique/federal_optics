@@ -69,8 +69,9 @@ export const HomePage: React.FC = () => {
   // Filter rail products
   const womensEyeglasses = PRODUCTS.filter(p => p.category === 'eyeglasses' && (p.gender === 'women' || p.gender === 'unisex'));
   const mensEyeglasses = PRODUCTS.filter(p => p.category === 'eyeglasses' && (p.gender === 'men' || p.gender === 'unisex'));
-  const womensSunglasses = PRODUCTS.filter(p => p.category === 'sunglasses' && p.gender === 'women');
-  const mensSunglasses = PRODUCTS.filter(p => p.category === 'sunglasses' && p.gender === 'men');
+  // same rule as the collection pages: gender-specific items plus unisex ones (labelled "Unisex")
+  const womensSunglasses = PRODUCTS.filter(p => p.category === 'sunglasses' && (p.gender === 'women' || p.gender === 'unisex'));
+  const mensSunglasses = PRODUCTS.filter(p => p.category === 'sunglasses' && (p.gender === 'men' || p.gender === 'unisex'));
   const activeEyeglasses = PRODUCTS.filter(p => p.subCategory.includes('Active') || p.brand.includes('Adidas') || p.brand.includes('Tom Famous'));
   const teenEyeglasses = PRODUCTS.filter(p => p.gender === 'kids' || p.subCategory.toLowerCase().includes('teen'));
   const tintEyeglasses = PRODUCTS.filter(p => p.category === 'tint-eyeglasses');

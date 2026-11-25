@@ -101,10 +101,15 @@ export const OurStoresPage: React.FC = () => {
                   <div className="flex items-start gap-3">
                     <Clock className="w-4 h-4 text-[#8C7048] shrink-0 mt-1" />
                     <div>
-                      <strong className="block text-stone-900 font-semibold">Operating Hours:</strong>
+                      <strong className="block text-stone-900 font-semibold">Shop Hours:</strong>
                       <p className="text-stone-600 mt-0.5">
                         Monday – Saturday: <span className="font-semibold text-stone-900">11:00 AM – 9:30 PM</span> <br />
                         Sunday: <span className="text-stone-500">Closed (On-Call WhatsApp Support)</span>
+                      </p>
+                      <strong className="block text-stone-900 font-semibold mt-3">Eye Clinic Timings:</strong>
+                      <p className="text-stone-600 mt-0.5">
+                        Monday – Saturday: <span className="font-semibold text-stone-900">5:30 PM – 10:30 PM</span> <br />
+                        Sunday: <span className="font-semibold text-stone-900">2:00 PM – 4:00 PM</span>
                       </p>
                     </div>
                   </div>

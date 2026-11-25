@@ -1,7 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useSyncExternalStore } from 'react';
 import { useCart } from '../context/CartContext';
-import type { CustomerOrderInfo } from '../context/CartContext';
-import { X, MessageSquare, ShieldCheck, Truck, CheckCircle2, ArrowRight } from 'lucide-react';
+import type { CartItem, CustomerOrderInfo } from '../context/CartContext';
+import { X, MessageSquare, ShieldCheck, Truck, CheckCircle2, ArrowRight, Copy, Download, Share2, Lock, FileImage } from 'lucide-react';
+import { describePowerShort } from '../utils/powerFormat';
+import { AdvancePaymentNotice } from './AdvancePaymentNotice';
+import {
+  preferShareSheet,
+  copyCardToClipboard,
+  downloadCard,
+  getCard,
+  getCardsVersion,
+  subscribeCards,
+} from '../utils/prescriptionCards';
+
+/** Prescription photos (still in memory) for a list of order items. */
+function attachmentsOf(items: CartItem[]) {
+  return items.flatMap(item => {
+    const card = getCard(item.prescriptionCard?.id);
+    return card ? [{ item, file: card.file, url: card.url }] : [];
+  });
+}
+
+const isMac = typeof navigator !== 'undefined' && /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent);
 
 export const WhatsAppOrderModal: React.FC = () => {
   const {
@@ -10,8 +30,11 @@ export const WhatsAppOrderModal: React.FC = () => {
     orderTargetItem,
     cart,
     subtotal,
-    generateWhatsAppUrl
+    generateWhatsAppUrl,
+    discardPrescriptionCards
   } = useCart();
+  // re-render when prescription photos are added or wiped
+  useSyncExternalStore(subscribeCards, getCardsVersion);
 
   const [customer, setCustomer] = useState<CustomerOrderInfo>(() => {
     try {
@@ -26,6 +49,10 @@ export const WhatsAppOrderModal: React.FC = () => {
 
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
+  // items that were just sent, so their prescription photos can be offered and then wiped
+  const [sentItems, setSentItems] = useState<CartItem[]>([]);
+  const [copyState, setCopyState] = useState<'idle' | 'copying' | 'copied' | 'failed'>('idle');
+  const [shared, setShared] = useState(false);
 
   if (!isOrderModalOpen) return null;
 
@@ -49,14 +76,45 @@ export const WhatsAppOrderModal: React.FC = () => {
     }
 
     const waUrl = generateWhatsAppUrl(customer, orderTargetItem);
+    const attachments = attachmentsOf(items);
+    // On laptops, put the first photo on the clipboard while we still have the click,
+    // so it can be pasted straight into the WhatsApp chat.
+    if (attachments.length && !preferShareSheet(attachments.map(a => a.file))) {
+      setCopyState('copying');
+      copyCardToClipboard(attachments[0].file).then(ok => setCopyState(ok ? 'copied' : 'failed'));
+    }
     window.open(waUrl, '_blank');
+    setSentItems(items);
+    setShared(false);
     setHasSubmitted(true);
   };
 
   const handleClose = () => {
+    // The order has gone to WhatsApp: clear its prescription photos from this website.
+    if (hasSubmitted) discardPrescriptionCards(sentItems);
     setIsOrderModalOpen(false);
     setHasSubmitted(false);
+    setSentItems([]);
+    setCopyState('idle');
+    setShared(false);
     setErrorMsg('');
+  };
+
+  const sentAttachments = hasSubmitted ? attachmentsOf(sentItems) : [];
+  const shareable = sentAttachments.length > 0 && preferShareSheet(sentAttachments.map(a => a.file));
+
+  const sharePhotos = async () => {
+    try {
+      await navigator.share({ files: sentAttachments.map(a => a.file), title: 'Prescription card' });
+      setShared(true);
+    } catch {
+      /* user closed the share sheet */
+    }
+  };
+
+  const copyPhoto = async (file: File) => {
+    setCopyState('copying');
+    setCopyState((await copyCardToClipboard(file)) ? 'copied' : 'failed');
   };
 
   return (
@@ -86,6 +144,68 @@ export const WhatsAppOrderModal: React.FC = () => {
               We have generated your structured order slip and opened WhatsApp in a new tab. 
               <strong className="text-stone-900 block mt-1">Please hit "Send" in WhatsApp to confirm with Federal Optical’s optical consultants.</strong>
             </p>
+            {sentAttachments.length > 0 && (
+              <div className="text-left max-w-md mx-auto rounded-2xl border border-[#25D366]/40 bg-[#F4FBF6] p-4 space-y-3">
+                <div className="flex items-start gap-2.5">
+                  <span className="flex w-8 h-8 shrink-0 items-center justify-center rounded-full bg-[#25D366]/15 text-[#1b8a43]">
+                    <FileImage className="w-4 h-4" />
+                  </span>
+                  <div className="min-w-0">
+                    <p className="text-sm font-semibold text-stone-900">Now send your prescription card photo</p>
+                    <p className="text-[12px] text-stone-600 leading-relaxed">
+                      {shareable
+                        ? 'Tap the button, choose WhatsApp, then pick the Federal Optical chat that just opened.'
+                        : copyState === 'copied'
+                          ? `Your photo is copied. In the WhatsApp chat press ${isMac ? '⌘ + V' : 'Ctrl + V'} to paste it, then press Send.`
+                          : 'Copy the photo and paste it into the WhatsApp chat, or download it and attach it with WhatsApp’s attach button.'}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-2 overflow-x-auto no-scrollbar">
+                  {sentAttachments.map(a => (
+                    <img key={a.url} src={a.url} alt="Prescription card" className="w-16 h-16 shrink-0 rounded-lg object-cover border border-[#E8E3D8] bg-white" />
+                  ))}
+                </div>
+
+                {shareable ? (
+                  <button
+                    type="button"
+                    onClick={sharePhotos}
+                    className="w-full h-11 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white text-sm font-semibold flex items-center justify-center gap-2 cursor-pointer"
+                  >
+                    {shared ? <CheckCircle2 className="w-4 h-4" /> : <Share2 className="w-4 h-4" />}
+                    {shared ? 'Photo shared. Share again' : `Share photo${sentAttachments.length > 1 ? 's' : ''} to WhatsApp`}
+                  </button>
+                ) : (
+                  <div className="grid grid-cols-2 gap-2">
+                    <button
+                      type="button"
+                      onClick={() => copyPhoto(sentAttachments[0].file)}
+                      className="h-10 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white text-[13px] font-semibold flex items-center justify-center gap-1.5 cursor-pointer"
+                    >
+                      {copyState === 'copied' ? <CheckCircle2 className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+                      {copyState === 'copied' ? 'Copied' : copyState === 'copying' ? 'Copying…' : 'Copy photo'}
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => sentAttachments.forEach((a, i) => downloadCard(a.file, `prescription-card${sentAttachments.length > 1 ? `-${i + 1}` : ''}`))}
+                      className="h-10 rounded-full border border-[#E8E3D8] bg-white hover:bg-[#F3EFE8] text-stone-800 text-[13px] font-semibold flex items-center justify-center gap-1.5 cursor-pointer"
+                    >
+                      <Download className="w-4 h-4" /> Download
+                    </button>
+                  </div>
+                )}
+                {copyState === 'failed' && !shareable && (
+                  <p className="text-[11px] text-stone-600">Your browser blocked copying. Use Download, then attach the photo in WhatsApp with the attach button.</p>
+                )}
+                <p className="flex items-start gap-1.5 text-[11px] text-stone-500">
+                  <Lock className="w-3.5 h-3.5 mt-px shrink-0" />
+                  <span>The photo is cleared from this website when you close this window.</span>
+                </p>
+              </div>
+            )}
+
             <div className="bg-[#F3EFE8] rounded-xl p-4 text-xs text-stone-700 space-y-1 text-left max-w-md mx-auto border border-[#E8E3D8]">
               <p className="font-semibold text-stone-900">What happens next?</p>
               <p>1. Our Karachi clinic verifies your frame measurements and lens prescription.</p>
@@ -106,7 +226,7 @@ export const WhatsAppOrderModal: React.FC = () => {
                 onClick={handleClose}
                 className="px-6 py-2.5 rounded-full bg-[#121316] hover:bg-stone-800 text-white font-medium text-sm transition-colors"
               >
-                Done / Back to Catalog
+                Done
               </button>
             </div>
           </div>
@@ -150,11 +270,8 @@ export const WhatsAppOrderModal: React.FC = () => {
                           <p className="text-stone-500 text-[11px]">
                             {item.selectedPack ? `${item.selectedPack.name} • ` : ''}
                             {item.selectedColor} 
-                            {item.powerSelection ? (
-                              item.powerSelection.hasPower
-                                ? ` • Rx: OD ${item.powerSelection.rightEyePower || '0'}, OS ${item.powerSelection.leftEyePower || '0'}`
-                                : ' • Plano'
-                            ) : ''}
+                            {item.powerSelection ? ` • ${describePowerShort(item.powerSelection)}` : ''}
+                            {item.prescriptionCard ? (getCard(item.prescriptionCard.id) ? ' • Prescription card attached' : ' • Prescription card (send in chat)') : ''}
                             {item.selectedLens ? ` • ${item.selectedLens.name}` : ''} × {item.quantity}
                           </p>
                         </div>
@@ -166,6 +283,7 @@ export const WhatsAppOrderModal: React.FC = () => {
                   );
                 })}
               </div>
+              <AdvancePaymentNotice total={currentTotal} />
             </div>
 
             {/* Form */}

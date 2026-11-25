@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SEO, getLocalBusinessSchema } from '../components/SEO';
 import { FEDERAL_OPTICAL_PHONE, FEDERAL_OPTICAL_PHONE_INTL, FEDERAL_OPTICAL_WHATSAPP_NUMBER } from '../context/CartContext';
 import { InstagramIcon } from '../components/Icons';
+import { CLINIC_HOURS, SHOP_HOURS } from '../data/hours';
 import {
   Phone,
   Mail,
@@ -125,9 +126,12 @@ export const ContactPage: React.FC = () => {
               <div className="flex items-start gap-3">
                 <Clock className="w-4 h-4 text-[#C5A880] shrink-0 mt-0.5" />
                 <div>
-                  <p className="font-semibold text-white">Opening Hours</p>
-                  <p>Monday – Saturday: 11:00 AM – 9:30 PM</p>
-                  <p className="text-stone-400">Sunday: Closed for clinic maintenance</p>
+                  <p className="font-semibold text-white">Shop Hours</p>
+                  <p>{SHOP_HOURS.weekdays}</p>
+                  <p className="text-stone-400">Sunday: Closed</p>
+                  <p className="font-semibold text-white mt-3">Eye Clinic Timings</p>
+                  <p>{CLINIC_HOURS.weekdays}</p>
+                  <p>{CLINIC_HOURS.sunday}</p>
                 </div>
               </div>
             </div>
