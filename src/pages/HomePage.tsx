@@ -89,7 +89,7 @@ export const HomePage: React.FC = () => {
     <div className="space-y-16 sm:space-y-24 pb-20">
       <SEO
         title="Federal Optical — Computerized Eye Clinic & Designer Eyewear | Karachi, Pakistan"
-        description="Karachi’s premier family opticians since 1975. Shop designer eyeglasses, sunglasses, and contact lenses online with cash on delivery across Pakistan, or book your clinical computerized eye exam."
+        description="Karachi’s premier family opticians since 1975. Shop designer eyeglasses, sunglasses, and contact lenses online with easy WhatsApp ordering and delivery across Pakistan, or book your clinical computerized eye exam."
         canonical="/"
         schema={getLocalBusinessSchema()}
       />

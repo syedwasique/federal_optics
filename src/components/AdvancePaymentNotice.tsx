@@ -16,15 +16,15 @@ export const AdvancePaymentNotice: React.FC<{ total: number; className?: string 
       <div className="space-y-1 text-xs tabular-nums lining-nums">
         <div className={row}>
           <span className="text-stone-600">Order total</span>
-          <span className="font-semibold text-stone-900">Rs. {total.toLocaleString()}</span>
+          <span className="whitespace-nowrap font-semibold text-stone-900">Rs. {total.toLocaleString()}</span>
         </div>
         <div className={row}>
           <span className="font-bold text-stone-900">Advance to pay ({ADVANCE_PERCENT}%)</span>
-          <span className="font-bold text-[#8C7048] text-sm">Rs. {advance.toLocaleString()}</span>
+          <span className="whitespace-nowrap font-bold text-[#8C7048] text-sm">Rs. {advance.toLocaleString()}</span>
         </div>
         <div className={row}>
           <span className="text-stone-600">Balance on delivery</span>
-          <span className="font-semibold text-stone-900">Rs. {(total - advance).toLocaleString()}</span>
+          <span className="whitespace-nowrap font-semibold text-stone-900">Rs. {(total - advance).toLocaleString()}</span>
         </div>
       </div>
       <p className="text-[11px] text-stone-600 leading-snug">

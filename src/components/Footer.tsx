@@ -237,23 +237,11 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom copyright and payment methods */}
+        {/* Bottom copyright */}
         <div className="pt-8 pb-20 sm:pb-0 flex flex-col lg:flex-row items-center justify-between gap-4 text-stone-500 text-xs text-center lg:text-left">
           <p>
             © {new Date().getFullYear()} Federal Optical. All rights reserved. “Since 1975 — Your Family Optician”.
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-2">
-            <span className="w-full sm:w-auto text-[11px] text-stone-400">Accepted:</span>
-            <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-stone-300 whitespace-nowrap">
-              Cash on Delivery (COD)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-stone-300 whitespace-nowrap">
-              Direct Bank IBFT
-            </span>
-            <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-stone-300 whitespace-nowrap">
-              Visa / MasterCard
-            </span>
-          </div>
         </div>
       </div>
     </footer>

@@ -121,7 +121,6 @@ export const PolicyPage: React.FC = () => {
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Standard nationwide transit time: <strong>3 to 5 business days</strong> after optical glazing.</li>
                   <li>Real-time SMS tracking number issued immediately upon shipment handover.</li>
-                  <li>Cash on Delivery (COD) is available for ready-to-wear non-prescription eyewear and contact lenses nationwide.</li>
                 </ul>
 
                 <h3 className="font-heading text-lg font-semibold text-stone-900 pt-3">3. International Worldwide Express</h3>
@@ -131,7 +130,7 @@ export const PolicyPage: React.FC = () => {
                 <ul className="list-disc pl-5 space-y-1">
                   <li>Dispatched via DHL Express Air Priority.</li>
                   <li>International transit time: <strong>5 to 8 business days</strong>.</li>
-                  <li>International payments are accepted via Wire Transfer, Raast IBFT, and Visa/MasterCard.</li>
+                  <li>Payment details for international orders are shared by our sales team on WhatsApp.</li>
                 </ul>
               </div>
             </div>

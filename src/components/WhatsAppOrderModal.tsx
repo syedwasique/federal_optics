@@ -120,13 +120,13 @@ export const WhatsAppOrderModal: React.FC = () => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
       <div 
-        className="relative w-full max-w-xl max-h-[90vh] overflow-y-auto bg-[#FAF8F5] rounded-2xl shadow-2xl border border-[#C5A880]/30 p-6 md:p-8 text-[#121316]"
+        className="relative w-full max-w-xl max-h-[90vh] overflow-y-auto bg-[#FAF8F5] rounded-2xl shadow-2xl border border-[#C5A880]/30 p-4 sm:p-6 md:p-8 text-[#121316]"
         onClick={e => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           onClick={handleClose}
-          className="absolute top-5 right-5 p-2 rounded-full text-stone-500 hover:text-black hover:bg-[#E8E3D8] transition-colors"
+          className="absolute top-3 right-3 sm:top-5 sm:right-5 p-2 rounded-full text-stone-500 hover:text-black hover:bg-[#E8E3D8] transition-colors"
           aria-label="Close modal"
         >
           <X className="w-5 h-5" />
@@ -209,7 +209,7 @@ export const WhatsAppOrderModal: React.FC = () => {
             <div className="bg-[#F3EFE8] rounded-xl p-4 text-xs text-stone-700 space-y-1 text-left max-w-md mx-auto border border-[#E8E3D8]">
               <p className="font-semibold text-stone-900">What happens next?</p>
               <p>1. Our Karachi clinic verifies your frame measurements and lens prescription.</p>
-              <p>2. We confirm COD (Cash on Delivery) or bank transfer details.</p>
+              <p>2. Our sales team shares the account details for the 50% advance payment.</p>
               <p>3. Your eyewear is custom-inspected, securely packed in our 1975 hard case, and dispatched.</p>
             </div>
             <div className="pt-4 flex flex-col sm:flex-row gap-3 justify-center">
@@ -233,9 +233,9 @@ export const WhatsAppOrderModal: React.FC = () => {
         ) : (
           <div>
             {/* Header */}
-            <div className="border-b border-[#E8E3D8] pb-4 mb-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#C5A880]/15 text-[#8C7048] text-xs font-semibold tracking-wider uppercase mb-2">
-                <MessageSquare className="w-3.5 h-3.5" /> Direct WhatsApp Order Flow
+            <div className="border-b border-[#E8E3D8] pb-4 mb-6 pr-9 sm:pr-10">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#C5A880]/15 text-[#8C7048] text-[11px] sm:text-xs font-semibold tracking-wider uppercase mb-2">
+                <MessageSquare className="w-3.5 h-3.5 shrink-0" /> Direct WhatsApp Order Flow
               </div>
               <h2 className="font-sans text-xl md:text-2xl font-bold text-[#121316]">
                 {isSingle ? 'Quick Order via WhatsApp' : 'Complete Your Order'}
@@ -246,26 +246,26 @@ export const WhatsAppOrderModal: React.FC = () => {
             </div>
 
             {/* Mini Order Summary Box */}
-            <div className="bg-[#F3EFE8] rounded-xl p-4 mb-6 border border-[#E8E3D8] space-y-3">
-              <div className="flex items-center justify-between text-xs font-semibold tracking-wider text-stone-500 uppercase">
+            <div className="bg-[#F3EFE8] rounded-xl p-3 sm:p-4 mb-6 border border-[#E8E3D8] space-y-3">
+              <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1 text-xs font-semibold tracking-wider text-stone-500 uppercase">
                 <span>Selected {items.length} {items.length === 1 ? 'Item' : 'Items'}</span>
-                <span>Subtotal: <strong className="font-sans font-semibold text-stone-900 tabular-nums lining-nums">Rs. {currentTotal.toLocaleString()}</strong></span>
+                <span className="whitespace-nowrap">Subtotal: <strong className="font-sans font-semibold text-stone-900 tabular-nums lining-nums">Rs. {currentTotal.toLocaleString()}</strong></span>
               </div>
-              <div className="max-h-36 overflow-y-auto space-y-2 pr-1 divide-y divide-[#E8E3D8]/60">
+              <div className="sm:max-h-36 sm:overflow-y-auto space-y-2 sm:pr-1 divide-y divide-[#E8E3D8]/60">
                 {items.map((item, idx) => {
                   const basePrice = item.selectedPack ? item.selectedPack.price : item.product.price;
                   const unitPrice = basePrice + (item.selectedLens ? item.selectedLens.price : 0);
                   const lineTotal = unitPrice * item.quantity;
 
                   return (
-                    <div key={item.id || idx} className="pt-2 first:pt-0 flex items-center justify-between text-xs">
-                      <div className="flex items-center gap-2.5">
+                    <div key={item.id || idx} className="pt-2 first:pt-0 flex items-center justify-between gap-3 text-xs">
+                      <div className="flex min-w-0 items-center gap-2.5">
                         <img
                           src={item.product.images[0]}
                           alt={item.product.name}
-                          className="w-9 h-9 object-cover rounded-md border border-[#E8E3D8]"
+                          className="w-9 h-9 shrink-0 object-cover rounded-md border border-[#E8E3D8]"
                         />
-                        <div>
+                        <div className="min-w-0">
                           <p className="font-sans font-semibold text-stone-900 leading-snug">{item.product.name}</p>
                           <p className="text-stone-500 text-[11px]">
                             {item.selectedPack ? `${item.selectedPack.name} • ` : ''}
@@ -276,7 +276,7 @@ export const WhatsAppOrderModal: React.FC = () => {
                           </p>
                         </div>
                       </div>
-                      <span className="font-sans font-semibold text-stone-900 tabular-nums lining-nums">
+                      <span className="shrink-0 whitespace-nowrap font-sans font-semibold text-stone-900 tabular-nums lining-nums">
                         Rs. {lineTotal.toLocaleString()}
                       </span>
                     </div>

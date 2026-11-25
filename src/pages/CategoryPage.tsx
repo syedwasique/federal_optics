@@ -154,7 +154,7 @@ export const CategoryPage: React.FC = () => {
     <div className="site-container py-8 md:py-12">
       <SEO
         title={`${getCategoryTitle()} Price in Pakistan — Designer Eyewear Collection`}
-        description={`Shop ${getCategoryTitle()} online at Federal Optical. Discover authentic branded frames, blue cut computer lenses, UV polarized shades, and contact lenses in Karachi with nationwide cash on delivery across Pakistan.`}
+        description={`Shop ${getCategoryTitle()} online at Federal Optical. Discover authentic branded frames, blue cut computer lenses, UV polarized shades, and contact lenses in Karachi with easy WhatsApp ordering and delivery across Pakistan.`}
         canonical={decodedSubCategory ? `/catalog/${selectedCategory}?subCategory=${encodeURIComponent(decodedSubCategory)}` : `/catalog/${selectedCategory}`}
         type="website"
         schema={getBreadcrumbSchema([
@@ -187,7 +187,7 @@ export const CategoryPage: React.FC = () => {
           </div>
 
           {/* Action Toolbar: Filter Button + Sort selector */}
-          <div className="flex items-center gap-3 self-start md:self-auto">
+          <div className="flex flex-wrap items-center gap-3 self-start md:self-auto max-w-full">
             {/* Filter Drawer Toggle Button */}
             <button
               onClick={() => setIsFilterPanelOpen(true)}

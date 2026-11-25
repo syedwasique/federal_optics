@@ -265,8 +265,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
         </div>
 
         {/* Pricing and Mobile Quick Add */}
-        <div className="mt-3 @[15rem]:mt-4 pt-3 border-t border-[#E8E3D8]/60 flex items-center justify-between gap-2">
-          <div className="min-w-0">
+        <div className="mt-3 @[15rem]:mt-4 pt-3 border-t border-[#E8E3D8]/60 flex flex-wrap items-center justify-between gap-2">
+          <div className="max-w-full">
             <div className="flex flex-wrap items-baseline gap-x-2">
               <span className="font-sans font-semibold text-sm @[20rem]:text-base text-stone-900 tabular-nums lining-nums whitespace-nowrap">
                 Rs. {product.price.toLocaleString()}
@@ -278,12 +278,12 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, className = '
               )}
             </div>
             <span className="hidden @[15rem]:block text-[10px] text-stone-500">
-              COD & Karachi Pickup Available
+              Order on WhatsApp
             </span>
           </div>
 
           {/* Mobile direct add button */}
-          <div className="sm:hidden flex shrink-0 items-center gap-1.5">
+          <div className="sm:hidden flex shrink-0 items-center gap-1.5 ml-auto">
             <button
               onClick={handleQuickAdd}
               className="flex h-9 w-9 items-center justify-center rounded-full bg-[#121316] text-white"

@@ -70,8 +70,11 @@ export const CartDrawer: React.FC = () => {
             </div>
           </div>
 
+          {/* Items + checkout: on phones they scroll together so the items are never squeezed;
+              from sm up the checkout stays pinned at the bottom as before */}
+          <div className="flex-1 min-h-0 flex flex-col max-sm:overflow-y-auto">
           {/* Cart Items List */}
-          <div className="flex-1 overflow-y-auto p-5 space-y-4 divide-y divide-[#E8E3D8]">
+          <div className="flex-1 sm:overflow-y-auto p-5 space-y-4 divide-y divide-[#E8E3D8]">
             {cart.length === 0 ? (
               <div className="text-center py-16 space-y-4">
                 <div className="w-16 h-16 mx-auto rounded-full bg-[#F3EFE8] flex items-center justify-center text-stone-400">
@@ -101,7 +104,7 @@ export const CartDrawer: React.FC = () => {
                       alt={item.product.name}
                       className="w-20 h-20 object-cover rounded-lg border border-[#E8E3D8] shrink-0 bg-white"
                     />
-                    <div className="flex-1 flex flex-col justify-between">
+                    <div className="flex-1 min-w-0 flex flex-col justify-between">
                       <div>
                         <div className="flex justify-between items-start">
                           <h4 className="font-medium text-sm text-stone-900 leading-snug">
@@ -155,7 +158,7 @@ export const CartDrawer: React.FC = () => {
                         )}
                       </div>
 
-                      <div className="flex items-center justify-between mt-2">
+                      <div className="flex flex-wrap items-center justify-between gap-2 mt-2">
                         {/* Quantity Controls */}
                         <div className="flex items-center border border-[#E8E3D8] rounded-full bg-white px-2 py-0.5">
                           <button
@@ -178,8 +181,8 @@ export const CartDrawer: React.FC = () => {
                         </div>
 
                         {/* Price */}
-                        <div className="text-right">
-                          <span className="font-sans text-xs font-bold text-stone-900 tabular-nums lining-nums">
+                        <div className="ml-auto text-right">
+                          <span className="whitespace-nowrap font-sans text-xs font-bold text-stone-900 tabular-nums lining-nums">
                             Rs. {itemLineTotal.toLocaleString()}
                           </span>
                           {item.quantity > 1 && (
@@ -224,6 +227,7 @@ export const CartDrawer: React.FC = () => {
               </div>
             </div>
           )}
+          </div>
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@ const FAQS: FaqItem[] = [
     category: 'Ordering & Payment',
     question: 'What payment methods do you accept?',
     answer:
-      'Within Pakistan, we accept Cash on Delivery (COD) for most ready-to-wear frames and standard lenses. For customized high-index prescription glazing, digital progressives, or international deliveries, we accept Direct Bank Transfer (IBFT), JazzCash, Raast, and Visa/MasterCard payments.'
+      'All orders are placed on WhatsApp. A 50% advance payment confirms your order, and our sales team shares the account details with you on WhatsApp. The remaining balance is paid on delivery.'
   },
   {
     category: 'Ordering & Payment',
