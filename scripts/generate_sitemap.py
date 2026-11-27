@@ -2,7 +2,7 @@ import os
 import re
 from datetime import datetime
 
-base_url = "https://federaloptical.com"
+base_url = "https://www.federaloptical.pk"
 today = datetime.now().strftime("%Y-%m-%d")
 
 # 1. Static Pages

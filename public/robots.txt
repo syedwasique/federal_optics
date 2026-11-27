@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://federaloptical.com/sitemap.xml
+Sitemap: https://www.federaloptical.pk/sitemap.xml

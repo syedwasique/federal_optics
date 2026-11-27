@@ -1,1154 +1,1178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://federaloptical.com/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/catalog/eyeglasses</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/catalog/eyeglasses</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/catalog/sunglasses</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/catalog/sunglasses</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/catalog/color-contacts</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/catalog/color-contacts</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/catalog/clear-contacts</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/catalog/clear-contacts</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/catalog/tint-eyeglasses</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/catalog/tint-eyeglasses</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/catalog/accessories</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/catalog/accessories</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/about</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/about</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/contact</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/contact</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/federal-care</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/vision-care</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/stores</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/federal-care</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.federaloptical.pk/stores</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/faq</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/blog</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.federaloptical.pk/faq</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/policies</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/size-guide</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.federaloptical.pk/policies</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/stepper-2021-espresso-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/partnership</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.federaloptical.pk/product/stepper-2021-espresso-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/stepper-rect-classic-matte-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/stepper-rect-classic-matte-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/adidas-2041-black-teal</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/adidas-2041-black-teal</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-pilot-black-silver</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-pilot-black-silver</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-retro-round-black-gold</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-retro-round-black-gold</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-exec-rectangle-tortoise</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-exec-rectangle-tortoise</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-pilot-tomfamous-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-pilot-tomfamous-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-round-tomfamous-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-round-tomfamous-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-rect-tomfamous-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-rect-tomfamous-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-navigator-matte-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-navigator-matte-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-wayfarer-jet-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-wayfarer-jet-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-streamline-pilot-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-streamline-pilot-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-pantos-honey-crystal</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-pantos-honey-crystal</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-exec-slim-matte-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-exec-slim-matte-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-browline-hybrid-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-browline-hybrid-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-pilot-metal-temple-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-pilot-metal-temple-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-square-sport-grip-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-square-sport-grip-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-urban-rectangle-midnight</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-urban-rectangle-midnight</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-contour-pilot-charcoal</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-contour-pilot-charcoal</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-keyhole-round-dark-amber</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-keyhole-round-dark-amber</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-architectural-square-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-architectural-square-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-aviator-wire-double-bridge</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-aviator-wire-double-bridge</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-classic-rectangle-deep-grey</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-classic-rectangle-deep-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/regular-tr90-retro-horn-rim-amber-gold</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/regular-tr90-retro-horn-rim-amber-gold</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-xh6041-cateye-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-xh6041-cateye-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-xh6042-butterfly-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-xh6042-butterfly-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-xh6043-round-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-xh6043-round-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-bio-55</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-bio-55</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/1-pair</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/1-pair</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-flx-01</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-flx-01</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/minus-power</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/minus-power</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-vis-01</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-vis-01</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-foc-01</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-foc-01</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-frk-58</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-frk-58</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-opt-ex</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-opt-ex</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-opt-tr</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-opt-tr</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-diamond-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-clearex-hd</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-agate-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/cl-quick-beauty-ew</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-allure-blonde</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-diamond-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-breeze</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-agate-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-brown-shadow</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-allure-blonde</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-glitter-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-breeze</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-gray-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-brown-shadow</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-mysterious</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-glitter-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-oak</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-gray-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-silver-mist</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-mysterious</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-wood-stone</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-oak</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-jade-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-silver-mist</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-moon-stone</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-wood-stone</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-nay</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-jade-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-dia-wood-leaf</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-moon-stone</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-amber-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-nay</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-cinnamon-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-dia-wood-leaf</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-cloudy-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-amber-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-crystal-n</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-cinnamon-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-emerald-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-cloudy-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-gray-olive</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-crystal-n</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-green-olive</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-emerald-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-grey-beige</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-gray-olive</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-lavender-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-green-olive</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-matt-olive</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-grey-beige</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-midnight-blue</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-lavender-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-mint-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-matt-olive</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-sandy-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-midnight-blue</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-sandy-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-mint-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-silky-gold</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-sandy-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-silky-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-sandy-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-silky-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-silky-gold</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-elt-wild-honey</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-silky-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-gray-caramel</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-silky-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-husky-gray-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-elt-wild-honey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-lime-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-gray-caramel</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-luminous-pearl</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-husky-gray-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-navy-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-lime-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-radiant-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-luminous-pearl</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-radiant-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-navy-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-radiant-hazelnut</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-radiant-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-glw-vivid-blue</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-radiant-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-nat-cool-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-radiant-hazelnut</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-nat-cool-hazel</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-glw-vivid-blue</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-nat-natural-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-nat-cool-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/bl-nat-viola-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-nat-cool-hazel</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-amber-grey</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-nat-natural-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-emerald-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/bl-nat-viola-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-honey</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-amber-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-ice-blue</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-emerald-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-pearl-grey</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-honey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-sea-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-ice-blue</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-topaz</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-pearl-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-glm-white-rose</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-sea-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-gor-warm-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-topaz</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-gor-warm-hazel</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-glm-white-rose</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-aqua</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-gor-warm-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-gor-warm-hazel</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-cloud</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-aqua</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-cool-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-dark-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-cloud</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-enchant-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-cool-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-enchant-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-dark-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-enchant-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-hazel</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-enchant-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-pure-hazel</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-sepia</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-hazel</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-spark-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-pure-hazel</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-spark-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-sepia</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-spark-turquoise</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-spark-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-cls-violet</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-spark-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-pnt-p2</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-spark-turquoise</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/120ml</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-cls-violet</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-cry-gp</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-pnt-p2</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-cry-kit</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/120ml</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-imp-120</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-cry-gp</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-slt-120</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-cry-kit</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-ult-120</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-imp-120</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-gl-hook</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-slt-120</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-gl-rope</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-ult-120</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-cln-120</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-gl-hook</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/ac-sg-box</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-gl-rope</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/police-clip-on-black-yellow</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-cln-120</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-metal-wire-arista-gold</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/ac-sg-box</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-hex-metal-arista-gold</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/police-clip-on-black-yellow</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/tiffany-tr-blush-rose-gold</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-metal-wire-arista-gold</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/stepper-ns11014-browline</loc>
-    <lastmod>2026-11-22</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-hex-metal-arista-gold</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/stepper-2012-cat-eye</loc>
-    <lastmod>2026-11-22</lastmod>
+    <loc>https://www.federaloptical.pk/product/tiffany-tr-blush-rose-gold</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/swarovski-tr6843-cat-eye</loc>
-    <lastmod>2026-11-22</lastmod>
+    <loc>https://www.federaloptical.pk/product/stepper-ns11014-browline-gunmetal-silver</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/swarovski-tr6844-cat-eye</loc>
-    <lastmod>2026-11-22</lastmod>
+    <loc>https://www.federaloptical.pk/product/stepper-2012-cat-eye-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/knight-horse-sq-01-matte-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/swarovski-tr6843-cat-eye-brown-fade</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/knight-horse-sq-07-gloss-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/swarovski-tr6844-cat-eye-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/knight-horse-sq-11-crystal-clear</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/chanel-tr6839-cat-eye-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-sun-aviator-hybrid-black-gold</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/gucci-tr6834-cat-eye-tiger-print</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-sun-aviator-wire-gunmetal-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/metal-stone-ladies-frame-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-sun-sami-sq-gold-grey</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/knight-horse-sq-01-matte-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-sun-tr-pol-matte-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/knight-horse-sq-07-gloss-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-sun-round-bronze-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/knight-horse-sq-11-crystal-clear</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-ferrari-aviator-matte-black-red</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-sun-aviator-hybrid-black-gold</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/rayban-sun-sheet-black-polarized</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-sun-aviator-wire-gunmetal-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/dita-solid-noir-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-sun-sami-sq-gold-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/gq-square-brown-twotone</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-sun-tr-pol-matte-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/gq-teen-flexible-slate-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-sun-round-bronze-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/gq-big-square-noir-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-ferrari-aviator-matte-black-red</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/looknice-square-gloss-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/rayban-sun-sheet-black-polarized</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-gor-misty-blue</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/dita-solid-noir-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-gor-olivine</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/gq-square-brown-twotone</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-gor-silk-green</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/gq-teen-flexible-slate-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-gor-sterling-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/gq-big-square-noir-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/opt-gor-tiffany-gray</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/looknice-square-gloss-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/sg-crt-01</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-gor-misty-blue</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/sg-crt-01-blue-gradient</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-gor-olivine</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/sg-cln-01-smoke-grey</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-gor-silk-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/sg-lv-01-crystal-smoke</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-gor-sterling-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/sg-mj-01-classic-black</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/opt-gor-tiffany-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/sg-prd-01-translucent-brown</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-baby-aqua</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/fo-lew-01-royal-purple</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-brilliant-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/fo-por-01-black-golden</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-glittering-blue</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/fo-yqk-01-black-ombre</loc>
-    <lastmod>2026-11-17</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-groovy-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/chanel-tr6839-cat-eye</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-misty-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/gucci-tr6834-cat-eye</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-shimmering-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/metal-stone-ladies-frame</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-warm-hazel</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-clearex-hd</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-fus-perky-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/cl-quick-beauty-ew</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-mos-charming-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-baby-aqua</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-mos-luscious-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-brilliant-brown</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-mos-urban-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-glittering-blue</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/frk-mos-velvet-blue</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-groovy-green</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/qb-blue</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-misty-grey</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/qb-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-shimmering-grey</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/qb-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-warm-hazel</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/qb-green</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-fus-perky-brown</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/qb-honey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-mos-charming-brown</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/qb-pure-hazel</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-mos-luscious-green</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/qb-sterling-gray</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-mos-urban-grey</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/sg-crt-01</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/frk-mos-velvet-blue</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/sg-crt-01-blue-gradient</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/qb-blue</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/sg-cln-01-smoke-grey</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/qb-brown</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/sg-lv-01-crystal-smoke</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/qb-gray</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/sg-mj-01-classic-black</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/qb-green</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/sg-prd-01-translucent-brown</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/qb-honey</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/fo-lew-01-royal-purple</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/qb-pure-hazel</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/fo-por-01-black-golden</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://federaloptical.com/product/qb-sterling-gray</loc>
-    <lastmod>2026-11-25</lastmod>
+    <loc>https://www.federaloptical.pk/product/fo-yqk-01-black-ombre</loc>
+    <lastmod>2026-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

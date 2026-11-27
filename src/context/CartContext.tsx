@@ -241,7 +241,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   /** Link to the exact product (and colour) so the sales team can open what was ordered. */
   const productLink = (item: CartItem): string => {
-    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://federaloptical.com';
+    const origin = typeof window !== 'undefined' ? window.location.origin : 'https://www.federaloptical.pk';
     const color = item.product.availableColors.length > 1 && item.selectedColor
       ? `?color=${encodeURIComponent(item.selectedColor)}`
       : '';

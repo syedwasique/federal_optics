@@ -10,7 +10,7 @@ export interface SEOProps {
   schema?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-export const BASE_URL = 'https://federaloptical.com';
+export const BASE_URL = 'https://www.federaloptical.pk';
 const DEFAULT_TITLE = 'Federal Optical — Computerized Eye Clinic & Designer Eyewear Since 1975';
 const DEFAULT_DESCRIPTION = 'Karachi’s trusted family opticians since 1975. Shop designer eyeglasses, sunglasses, and contact lenses, or book your computerized eye exam. Serving Pakistan with fast nationwide delivery.';
 const DEFAULT_IMAGE = 'https://res.cloudinary.com/tyrukjzt/image/upload/v1794374921/federal-optics/assets/hero/hero-eyeglasses-desktop-1920.webp';
@@ -23,7 +23,7 @@ export function getLocalBusinessSchema() {
     '@type': ['Optician', 'MedicalBusiness', 'LocalBusiness'],
     '@id': `${BASE_URL}/#organization`,
     name: 'Federal Optical — Computerized Eye Clinic',
-    alternateName: 'Federal Optical',
+    alternateName: ['Federal Optical', 'Federal Optics', 'Federal Optics Karachi'],
     url: BASE_URL,
     logo: `${BASE_URL}/assets/logos/logo_charcoal.png`,
     image: DEFAULT_IMAGE,
